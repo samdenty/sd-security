@@ -1,0 +1,23 @@
+€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+€ App/Plugin Name € Logger++
+€ Author          € Samuel Denty ﬂXLR8ﬂ (The Developer Of SD-Security)
+€ Creation Date   € 21/9/15
+€ Update Date     € 6/10/15
+€ Support         € SD-Security 1.3.4+
+€ Windows Support € Windows XP+
+€ Script Language € Batch File + Compiled Batch File (EXE)
+€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+                                   €ﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                   € INFO €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+This Plugin Enables You To Log Every Time SD-Security Is Launched, With Loads More Information, Such As The Windows Product Key, Computer Name, Advanced Info (Serial, OS), Username, Time & Date
+
+                                 €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                 € Settings €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+SETTINGS:
+DisableLogger++.ini - This Stops The Logger++ From Logging
+SameFile.ini - This Makes All The Logs, Stay In One LOG File

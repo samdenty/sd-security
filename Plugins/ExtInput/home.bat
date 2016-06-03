@@ -1,0 +1,1 @@
+@start "" "%appfolder%\ExtInput.bat"

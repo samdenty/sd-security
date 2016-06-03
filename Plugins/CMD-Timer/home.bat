@@ -1,0 +1,1 @@
+@call start "" "%appfolder%\CMD-Timer.bat"

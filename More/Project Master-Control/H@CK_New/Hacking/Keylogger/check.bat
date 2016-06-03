@@ -1,0 +1,2 @@
+@echo off
+if exist "C:\Program Files (x86)\FK_Monitor\service.exe" (set Keylogger=Installed) else (if exist "C:\Program Files\FK_Monitor\service.exe" (set Keylogger=Installed) else (set Keylogger=Uninstalled))

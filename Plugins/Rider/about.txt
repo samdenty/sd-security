@@ -1,0 +1,19 @@
+€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+€ App/Plugin Name € Rider V.1.1.4
+€ Author          € Samuel Denty ﬂXLR8ﬂ (The Developer Of SD-Security)
+€ Creation Date   € 11/9/15
+€ Update Date     € 9/10/15
+€ Support         € SD-Security 1.3.4+
+€ Windows Support € Windows XP+
+€ Script Language € Batch File
+€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+                                   €ﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                   € INFO €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+SD-Security TERMINAL MODE Version 10.3 (Build 2539)
+This Plugin Allows You To Regain Access To SD-Security's Admin Console.
+This Plugin Uses The Master-Override Exploit To Regain Access
+THIS PLUGIN IS *ONLY PERMITTED* TO BE USED FOR PASSWORD RECOVERY,
+NOT TO BREACH OTHER PEOPLES DATA!

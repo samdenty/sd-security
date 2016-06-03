@@ -1,0 +1,1 @@
+This file is here so the application knows not to show the welcome screen on startup

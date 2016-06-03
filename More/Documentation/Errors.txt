@@ -1,0 +1,20 @@
+If SD-Security keeps crashing on startup, it could be due to the copyright function that denies you access to the program unless the SD-Security excutable is called SD-Security.exe, so rename it to SD-Security and you will have it working
+ERROR 100: SD-Security Can't Find The File 'SD-Security' (The Extension Doesnt Matter)
+
+BUG 101: SD-Security Is Less Secure On Fat/Fat32 Drives Than On NTFS Drives, Due To Permissions Are Not Used On FAT Drives
+Fix A= Notifies The User If They Are Using A FAT / FAT32 Drive
+
+BUG 102: Opening SD-Security In Notepad/Resource Editor Shows The Source Of The Script And The Passwords
+Fix A= Compress The Application (UPX)
+Fix B= Purchase Pro Batch To EXE Software
+Fix C= Have The Program In Another Program In Another Program In Another Program In Another Program, Concept Similar To A Box In A Box In A Box... (All In Different Directorys And Deleted At Exit)
+Fix D= Write The Program In A Different Programming Language
+
+BUG 103: If SD-Security Is Started In A Different Directory, It will show error 100 And If The User Selects Hide Next Time, It Will Just Create A FIle Called SD-Security.exe In The Directory SD-Security Was Launched In
+Fix A= Just Start SD-Security With Explorer.exe (windows explorer / file explorer, C:\windows\explorer.exe)
+
+BUG 104: If the file system is ntfs of a usb and you put the usb in another computer, SD-Security will crash (Permissions, Ownership etc. )
+
+DEV 2 Bug: This Shows User Input On The Screen And When User Input Is Displayed On The Screen, Commands Can Be Passed To SD-Security (Pipe Commands eg. |echo %password% , |set pass=%password% etc.)
+DEV 3 Bug: This Bug Allows To User To Inject Code Into SD-Security By Changing Variables (Eg. %time%, %date%, %cd% etc.), So A Command Before SD-Security Is Launched Like: set time=%password%, set time=, set time=^&echo %password%
+DEV 5 Bug: Time And Date API Starts Misbehaving, Causing SD-Security To Display The Time/Date Wrong

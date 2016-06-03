@@ -1,0 +1,22 @@
+€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+€ App/Plugin Name € NetPass
+€ Author          € Samuel Denty ﬂXLR8ﬂ (The Developer Of SD-Security)
+€ Creation Date   € 8/10/15
+€ Update Date     € 8/10/15
+€ Support         € SD-Security 1.3.4+
+€ Windows Support € Windows 7+
+€ Script Language € Batch File + Compiled Batch File (EXE)
+€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+                                   €ﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                   € INFO €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+This Plugin Allows You To Get All The SSID And Passwords Saved In Windows.
+*This Plugin Uses The Netsh Command, Which Isn't Suported On Windows XP*
+
+                                 €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                 € Settings €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+* Disable/Enable The Service On Startup Of SDS

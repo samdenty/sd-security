@@ -1,0 +1,14 @@
+[autorun]
+Open=SD-Security-TRIAL.exe
+ShellExecute=System\SD-Security-TRIAL.exe
+shell\open\command=SD-Security-TRIAL.exe
+shell\open=Open SD-Security-TRIAL
+Action=Open SD-Security-TRIAL
+Icon=Favicon.ico
+Label=SD-Security-TRIAL®
+UseAutoplay=
+
+[Content]
+MusicFiles=false
+PictureFiles=false
+VideoFiles=false

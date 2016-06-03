@@ -1,0 +1,29 @@
+--ADMINCMD API FOR SD-SECURITY AND OTHER SD-STORAGE SOFTWARE--
+--------------------------------------------------------------
+
+-AdminCMD.exe-
+--------------
+This EXE is an upgrade to the default AdminCMD API in SD-Security, it improves the performance by 45% and is protected against source-modification attacks.
+In order for you to use this EXE, it needs to be launched as an administrator.
+
+TO ACTIVATE THE ADMINCMD API:
+--------------------------
+1. Open 'AdminCMD_Launcher.exe'
+2. Click on 'Activate Background Service'
+3. Wait until a window appears, asking you if you want to continue, click on 'yes' (You may have to enter a password)
+4. FINISHED: The AdminCMD service has been activated
+(You can also do this manually if you want: Right click 'AdminCMD.exe', select 'Run as administrator' and then click 'Yes')
+
+TO DEACTIVATE THE ADMINCMD API:
+1. Open 'AdminCMD_Launcher.exe'
+2. Click on 'Deactivate Background Service'
+3. FINISHED: The AdminCMD service has been deactivated
+
+
+WHAT THIS ENABLE ME TO DO?
+--------------------------
+If you have software from SD-Storage on your PC (SD-Security, NetworkMsngr etc.), this API allows them to use admin permissions without having to restart.
+Your allowed to implement this API into any of your applications provided you insert the correct attributation in your credits
+To get the required script(s), contact me at SamDenty99@outlook.com for the code libraries
+
+(C)SD-Storage, All rights reserved

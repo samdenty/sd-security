@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Helpinator">
+<title>Developing Apps & Plugins</title>
+<link rel="stylesheet" type="text/css" href="default.css" />
+
+<link rel="stylesheet" href="globalstyles.css" type="text/css" media="screen" /><script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.highlight.js"></script>
+<script type="text/javascript" src="highlight.js"></script>	<script type="text/javascript"><!--
+		var sTopicId = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+		if (top.frames.length == 0)
+			top.location.href = "index.html?" + sTopicId
+		else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			top.FrameTOC.SelectTocItem(sTopicId);
+	</script>
+</head>
+
+<body>
+<div id="container">
+
+	<table id="header" cellspacing="0" bgcolor="#6FA7D1" >
+  <tr>
+		<td width="74">
+                        <div id="logo">
+			<img src="help.png"  width="64" height="64" alt="help" />
+                        </div>
+		</td>
+
+		<td>                       
+			     <h1>Developing Apps & Plugins</h1>                     
+		</td>
+		
+		<td width="74">
+			<div id="navprev">
+				
+			</div>
+			<div id="navnext">
+				<a href="demo1.html">
+				<img src="nexttopic.png" width="32" height="32" alt="next"/>
+				</a>
+			</div>
+			
+			
+			
+			
+		</td>
+		
+	</tr>	
+	</table>
+		
+	
+	
+	<div id="content">
+	
+		
+	
+		<p class=rvps144><img width=170 height=170 alt="" src="gettingstarted1.tif"></p>
+<p class=rvps144><span class=rvts112>As of SD-Security </span><span class=rvts116>^1.3.4^</span><span class=rvts112>, Custom Apps and Plugins </span><span class=rvts114>are supported</span><span class=rvts112> in SD-Security.</span><br><span class=rvts112>For SDS to recognise &amp; load the Plugins, they need to be in '</span><span class=rvts114>SDS_Files\Plugins\</span><span class=rvts115>Plugin Name</span><span class=rvts114>\</span><span class=rvts112>', replacing '</span><span class=rvts113>Plugin Name</span><span class=rvts112>' with the name of your Plugin (Do not include spaces in the plugin name). </span></p>
+<p class=rvps102><span class=rvts101>Some variables you can use in the plugins:</span></p>
+<p class=rvps103><span class=rvts117>%AppFolder%</span><span class=rvts101>= The plugin directory, '</span><span class=rvts103>SDS_Files\Plugins\</span><span class=rvts104>Plugin Name</span><span class=rvts103>\</span><span class=rvts101>')</span></p>
+<p class=rvps104><span class=rvts117>%FullAppFolder%</span><span class=rvts101>= The full plugin directory, eg. '</span><span class=rvts103>F:\SD-Security\Latest\SDS_Files\Plugins\</span><span class=rvts104>Plugin Name</span><span class=rvts103>\</span><span class=rvts101>'</span></p>
+<p class=rvps105><span class=rvts101>Some things you need to know:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps106 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The plugin has the crash helper API working in the background, so if you ever need to perform an </span><span class=rvts103>exit&nbsp;</span><span class=rvts101> command, MAKE SURE YOU USE</span><span class=rvts103> exit 999</span><span class=rvts101> instead of just </span><span class=rvts103>exit</span><span class=rvts101>, so the crash helper API doesn't see the exit as a crash (Or exit /b 999).</span></li>
+<li class=rvps107 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The plugin has </span><span class=rvts103>access</span><span class=rvts101> to </span><span class=rvts103>all</span><span class=rvts101> the </span><span class=rvts103>variables</span><span class=rvts101> SDS has </span><span class=rvts103>except</span><span class=rvts101> the </span><span class=rvts103>account details</span></li>
+<li class=rvps108 style="margin-left: 0; text-indent: 0px"><span class=rvts101>To allow the plugin to switch back to SDS, just put the command </span><span class=rvts103>goto :EOF </span><span class=rvts101>and the plugin will switch back to SDS</span></li>
+</ul>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps109 style="margin-left: 0; text-indent: 0px"><span class=rvts101>Any variables you set in the plugin, dissappear in SDS. So if you was to </span><span class=rvts107>SET Status=Signed In</span><span class=rvts108>,</span><span class=rvts109>it won't work because of enviroment localization being enabled (We have to do this due to security reasons).</span></li>
+<li class=rvps110 style="margin-left: 0; text-indent: 0px"><span class=rvts109>Anything else is the same, so you could create a script in </span><span class=rvts110>PreBoot.bat: "</span><span class=rvts118>@cls&amp;@echo Loading SDS</span><span class=rvts109>"and that would override the loding screen to a plain version.</span></li>
+</ul>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps111 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The plugin API is in a BETA stage, with constant security fixes, if you find a security issue with the plugins, then please email SamDenty99@outlook.com</span></li>
+</ul>
+<p class=rvps112><span class=rvts109><br></span></p>
+<p class=rvps113><span class=rvts101>The plugin can be launched multiple ways:</span></p>
+<p class=rvps114><span class=rvts103>PreBoot:</span></p>
+<p class=rvps115><span class=rvts101>PreBoot.bat, this plugin is run as soon as SDS is opened but not before:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps116 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The safemode code</span></li>
+<li class=rvps117 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The security log</span></li>
+<li class=rvps118 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The loading screen text &amp; animation</span></li>
+</ul>
+<p class=rvps119><span class=rvts101>This will be launched on every boot of SDS (Including when SDS has just restarted after getting admin permissions)</span></p>
+<p class=rvps120><span class=rvts103>InBoot:</span></p>
+<p class=rvps121><span class=rvts101>InBoot.bat, this plugin is run as soon as SDS is opened but not before:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps122 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The safemode code</span></li>
+<li class=rvps123 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The security log</span></li>
+<li class=rvps124 style="margin-left: 0; text-indent: 0px"><span class=rvts101>The loading screen text &amp; animation</span></li>
+<li class=rvps125 style="margin-left: 0; text-indent: 0px"><span class=rvts101>When SDS has rebooted after getting admin permissions</span></li>
+</ul>
+<p class=rvps126><span class=rvts103>AfterBoot:</span></p>
+<p class=rvps127><span class=rvts101>AfterBoot.bat, this plugin is run as soon as SDS completes the booting proccess, but it won't be launched under these circumstances:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps128 style="margin-left: 0; text-indent: 0px"><span class=rvts101>When SDS has rebooted after getting admin permissions</span></li>
+<li class=rvps129 style="margin-left: 0; text-indent: 0px"><span class=rvts101>When SDS has been restored from a previous session</span></li>
+<li class=rvps130 style="margin-left: 0; text-indent: 0px"><span class=rvts101>When SDS has rebooted after getting admin permissions</span></li>
+<li class=rvps131 style="margin-left: 0; text-indent: 0px"><span class=rvts101>When there is an error with the SD-Settings.ini's permissions</span></li>
+<li class=rvps132 style="margin-left: 0; text-indent: 0px"><span class=rvts103>Before</span><span class=rvts101> the welcome to SDS screen</span></li>
+<li class=rvps133 style="margin-left: 0; text-indent: 0px"><span class=rvts103>Before</span><span class=rvts101> the BUG 101 error screens</span></li>
+<li class=rvps134 style="margin-left: 0; text-indent: 0px"><span class=rvts103>Before </span><span class=rvts101>the SDS updated/downgraded screen</span></li>
+</ul>
+<p class=rvps135><span class=rvts101>So this plugin </span><span class=rvts103>doesn't run all the time</span></p>
+<p class=rvps136><span class=rvts103>PreExit:</span></p>
+<p class=rvps137><span class=rvts101>PreExit.bat, this plugin is run before the normal exit screen is shown but won't run when:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps138 style="margin-left: 0; text-indent: 0px"><span class=rvts101>SDS has quick-ended (ended without showing the exit screen)</span></li>
+</ul>
+<p class=rvps139><span class=rvts103>AtExit:</span></p>
+<p class=rvps140><span class=rvts101>AtExit.bat, this plugin is run after the exit screen has been shown, after the timeout and animation, but won't run:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li class=rvps141 style="margin-left: 0; text-indent: 0px"><span class=rvts101>On some occasions where SDS just exits, like in safemode</span></li>
+</ul>
+<p class=rvps142><span class=rvts103>User: </span></p>
+<p class=rvps143><span class=rvts101>Home.bat, this </span><span class=rvts103>APP</span><span class=rvts101> is </span><span class=rvts103>only</span><span class=rvts101> run when the user decides to, and is the main app screen/</span></p>
+
+		<div class="spacer15px"></div>
+		
+		<div class="spacer15px"></div>
+		
+	</div>
+	
+	<div class="spacer5px"></div>
+	
+	<div id="footer">
+	&copy; 2015 SD-Storage
+	</div>
+</div>
+</body>
+</html>

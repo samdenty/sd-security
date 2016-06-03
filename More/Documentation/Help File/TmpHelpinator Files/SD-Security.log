@@ -1,0 +1,50 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling d:\Unlocked\Batch Files\Project Security\Archives\TmpHelpinator Files\SD-Security.chm
+
+HHC4014: Warning: The following map definition has an invalid context ID: #define IDH_exploits_Input Securer API 210.
+welcome.html
+gettingstarted.html
+demo1.html
+features.html
+apis.html
+reportingbugs2.html
+other.html
+exploits.html
+cmdproperties.html
+about.html
+termsandconditions.html
+logo.png
+nexttopic.png
+prevtopic.png
+Thumbs.db
+SD-Security.hhc
+SD-Security.hhk
+glossary.html
+welcome2.jpg
+welcome3.jpg
+welcome4.jpg
+welcome5.jpg
+welcome6.jpg
+demo11.jpg
+colortiles.css
+globalstyles.css
+welcome1.tif
+welcome7.tif
+gettingstarted1.tif
+gettingstarted2.tif
+features1.tif
+apis1.tif
+reportingbugs21.tif
+other1.tif
+about1.tif
+
+Compile time: 0 minutes, 3 seconds
+14	Topics
+61	Local links
+7	Internet links
+6	Graphics
+
+
+Created d:\Unlocked\Batch Files\Project Security\Archives\TmpHelpinator Files\SD-Security.chm, 341,928 bytes
+Compression decreased file by 75,916 bytes.

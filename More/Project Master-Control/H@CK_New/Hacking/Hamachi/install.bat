@@ -1,0 +1,3 @@
+@echo off
+echo Installing Hamachi...
+start Hamachi.msi

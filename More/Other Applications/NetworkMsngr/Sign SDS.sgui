@@ -1,0 +1,8 @@
+SignTool=D:\Unlocked\Command Prompt Tools\signtool.exe
+PFX=D:\Unlocked\Batch Files\Security\BETA\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=NetworkMsngr
+ProgramURL=http://SD-Storage.weebly.com/#NetworkMsngr
+File1=D:\Unlocked\Batch Files\Security\BETA\NetworkMsngr\NetworkMsngr.exe
+File2=D:\Unlocked\Batch Files\Security\BETA\NetworkMsngr\NetworkMsngr Sender.exe

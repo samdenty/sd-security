@@ -1,0 +1,2 @@
+@echo off
+if exist "C:\Program Files (x86)\TightVNC\tvnserver.exe" (set TightVNC=Installed) else (if exist "C:\Program Files\TightVNC\tvnserver.exe" (set TightVNC=Installed) else (set TightVNC=Uninstalled))

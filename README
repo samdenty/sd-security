@@ -1,0 +1,722 @@
+KEYS:
+++| Added Feature
+++++| Upcoming Feature
+++|^^ A Feature Based From Someone Elses Batch Code (The Code Is Always Optimized/Tweaked First Though)
+--| Removed Feature
+**| Updated Feature
+!!| Info
+## Versions That Add Major Security Bugs
+
+##^SD-SECURITY SHOULD NEVER BE INSTALLED ON THE ROOT OF THE C:\ DRIVE DUE TO A AUTORUN FILE BEING MADE ON IT^##
+This Log Is Best Viewed With A Monospace Font (With Consolas Font SIZE 12 / Roboto Mono SIZE 12), Word-Wrap Off And The Window Maximised
+This Log Is Much Easier To View With A Syntax Editing Scheme (Highlights Things Like: !!| , **| , --| , ++| & ^^)(SD-Security Editing Scheme)
+?.?.?B , ?.?.?C , ?.?.?D ... Small Fixes In Code (e.g. Bugs in the new code) And Adding Small Features, These versions are applied as soon as they arrive so if the version 5.0.0 is made then 5.0.0B then 5.0.0C, the version 5.0.0 is then actually version 5.0.0C
+
+INDEX:
+API: Application Programming Interface, This Is Some Code Designed To Do A Certain Feature As Efficiently As Possible Or It Can Be A Whole Program. It Can Also Be Included In Nearly Any Script (In The Same Programming Language)
+
+^0.0.1 - 15/3/14^
+++| Compiled The Application
+
+
+^1.0.0 - 5/6/14^
+**| No Ad Screen At The Beginning
+**| Removed Loads Of Useless Code
+**| Added A Whole Lot More Features And Cleaned Up Some Of The Unused Code
+++| Program Is Able To Be Used 'Securely' For Security
+
+^1.0.0^ ^trial^ ^ - 14/7/14^
+++| Added support for trial feature
+
+^1.0.1 - 16/7/14^
+--| Discontinued trial feature
+**| New GUI
+**| New Icon
+**|Fixed Several bugs
+
+^1.0.1B - 24/8/14^
+**| Fixed Bugs
+**| Reduced Size Of SD-Security by 30%
+
+^1.0.2 - 21/2/15^
+++| "USB Login" option
+**|Fixed login bug
+
+^1.0.3 - 30/3/15^
+++| SD-Settings.ini API
+--| Need for NoWelcomeOnStartup.txt file, instead its included in SD-Settings.ini
+
+^1.0.3B - 30/3/15^
+++| Made the SD-Settings.ini non-readable which adds a extra layer of security to the program (this also requires admin permissions to change the permissions as well)
+
+^1.0.4 - 31/3/15^
+!!| IF UPDATING FROM 1.0.3 DELETE SD-SECURITY.INI
+++| Colours, settings in SD-Settings.ini
+**| Updated Loading screen
+**| Updated Exit Screen
+--| Temporary encryption key (Just clutters it up)
+**| It all looks more material/metro now
+**| Fixed SD-Settings bugs (6x)
+
+^1.0.5 - 3/4/15^
+**| Updated Security System (Uses Permissions Now)
+**| Fixed Autoplay.inf bug
+**| Fixed Spelling Grammar In ABOUT Screen
+**| Master Override Feature Now Takes
+**| Fixed All Window Titles So They All Have - SD-Security At The End And Removed Fancy Text ".:: ::." from 2 window titles
+**| Moved SD-Security Log File To SDS_Files Directory
+++| Temporary Log File Feature: When you want to open the log file (Must Be Logged In) (Home > Other > Open Log) It Copy's The Log To SDS_Files\tmp.txt So You Don't Have To Choose What Application You Want To Open With The ".SDS_Log" Extension And It Also Protects The Log From Being Modified By User
+
+^1.0.6 - 3/4/15^
+**| Updated Home Screen Layout BETA DESIGN
+**| Signed-In and Signed-Out Home Screens Have The Same Header/Title Pane
+**| Make The Exit Screen More Compact
+++| Block Colours
+**| Fixed Several Bugs
+
+^1.0.7 - 19/4/15^
+**| Updated SD-Security Icon, A Minimalistic Padlock With The SD-Storage Logo In The Middle
+**| Updated SD-Security Drive Icon, Now Drive Icon And SD-Security Icons Are Different
+**| Updated The Layout Of 1 Page (Missed It In V 1.0.6 Update)
+
+!!| UNRESOLVED BUG FOUND! Bug 101
+!!| :
+!!| Bug Applies To All Drives With FAT/FAT32 System (Includes 99.9% Of Memory Sticks And Some External Hard drives)
+!!| SD-Security Is Less Secure On FAT/FAT32 Drives Than On NTFS Drives, Due To Permissions On A Fat/Fat32 Drive Can't Be Changed (No Permissions)
+!!| To Fix Bug:
+!!| 1. Backup Any Files On Your Drive (A Tip: In The Folder Options, Tick The Boxes "Show Hidden Files And Folders" & "Show Hidden System Files" So You Can See SD-Security's Settings And Data Folder)
+!!| 2. Right Click On Your Drive In Windows Explorer And Select "Format"
+!!| 3. Select The File System "NTFS" (If You Can't See NTFS, Then You Will Have To Wait Until We Find A Fix (e.g. Use Encryption, But We Don't Want To Include Any Third Party Software, So We Would Have To Come Up With A Whole Different System To Secure Everything)/ Ignore The Bug)
+!!| 4. Then Click On Format
+!!| 5. Restore All Your Files From The Backup You Made Earlier (Step 1) And Open SD-Security
+!!| 6. Bug Fixed :)
+
+^1.0.8 - 26/4/15^
+!!| IF UPDATING FROM 1.0.7 DELETE SD-SECURITY.INI
+**| Fixed Code Bug That Has Been In There Since 1.0.5 (Two Labels: :back5 :back5)
+++| On Startup SD-Security Will Tell You If Bug 101 Applies, And Will Give You Instructions On How To Fix (Credits Go To http://stackoverflow.com/a/6996136 For The Technique)
+
+^1.0.8B - 26/4/15-27/4/15^
+**| Partially Encrypted Some Of The Program Using Caesar Cypher (Passwords, Usernames This Will Protect Bug 102 But NOT STOP IT, Encrypts It So Its Hard To See It Without Looking At The Variables See: Errors.txt)
+
+^1.0.9 - 27/4/15^
+**| Fixed SD-Security Crashing When The EXE Is Not Named 'SD-Security.exe'
+!!| DEV 2: Updated The Code To Rename SD-Security Application To SD-Security.exe:
+   !!| If There Isnt A Application Called SD-Security.exe Copy Self- Fails Here Because Its Impossible To Copy The EXE (No Way Of Getting Name, Due To The SD-Security Is Actually Being Run By A Batch File And Run In The EXE (EXE Is Like CMD.EXE, No Way Of Getting Name Without Using Advanced Batch Code)), Not The Batch File Of SD-Security
+
+^1.0.9B - 27/4/15^
+--| Skipped Using DEV 2 Code, Code Still Is In SD-Security Though, Possible To Be Re-Added In The Future - UPDATE: Feature Removed
+**| Updated All Error Messages To Modern Type
+++| Feature To Allow Use Of SD-Security Even If The EXE Isn't Named 'SD-Security.exe' (Will Disable Some Features Though)
+
+^1.0.9C - 27/4/15^
+**| Added Colors Into Error Messages And Some Final Finishes
+
+^1.1.0 ^ ^ ENCRYPTO ^ ^ - 29/4/15 to 2/5/15^
+!!| Features of Encrypto:
+   !!| Easily Store Passwords In SD-Security By Using A Level 1 Encrypted File
+   !!| Easily Add Lines To The ENCRYPTO Record
+   !!| Easily Delete The ENCRYPTO Record
+   !!| It Uses The Same Password As The Users Account
+   !!| It Is A Compact Script (170-180 lines of code)
+!!| Unrecorded 20 DEV SD-Securitys, They Included Developer Versions Of The Encrypto API
+
+^1.1.0 - 2/5/15^
+++| Encrypto: A Password Vault Program Built Into SD-Security
+**| Fixed Code Error ("if %theme%==dark_aqua 3b" changed to "if %theme%==dark_aqua COLOR 3b", There Was 5x Of This Code So 5x Were Fixed)
+
+^1.1.0B -2/5/15^
+**| Fixed Error That Only Applies To EXE
+
+^1.1.0C - 2/5/15^
+--| Sign Out On Wrong Password Verification, When You Have To Re-Verify Your Password If You Get It Wrong You Get Signed Out, Now If You Get It Wrong You Stay Signed In
+
+^1.1.1 -3/5/15^
+**| Updated Lost And Found Screens, And Renamed It To 'Lost & Found'
+**| Updated Logging Format
+**| Updated Lost & Found Code, And Remove Logging Some Variables That Only Worked In Windows XP-Windows 7 (Trying To Build It For The Future Generations Of Windows)
+**| Fixed a bug (unused code in v.1.1.1, it will be implemented in future versions) that applies to some x64 systems
+
+^1.1.1B - 3/5/15^
+**| Updated The ! Into A | On The Icon On Exit Screen
+**| Fixed When You Open SD-Security For The First Time It Crashes (It Skipped Making The SD-Settings.ini On The First Startup Because When It Returned From Making The SDS_Files Folder It Went To The Next Label, Fixed By Going Back To A Previous Label)
+
+^1.1.1C - 3/5/15^
+**| Fixed When You Chose Not To Hide Error 101 From Encrypto It Kept Didn't Allow You To Not Ignore It (If You Chose 'no' it would just go back to the same screen (incorrect goto label)
+
+^1.1.2 - 4/5/15^
+++| Finished Safe Mode Feature: Create A File Called SafeMode With Any Extension In The Same Folder As The SD-Security EXE And You Can Reset SD-Security, Uninstall, Troubleshoot, Reset Settings Without Loading Any Of The SD-Security Script (Safe Mode Only Uses The Log Code, To Log Going Into Safe_Mode In The Log)
+
+^1.1.2B - 4/5/15^
+**| Fixed Uninstalling SD-Security Not Working, Because Its Impossible To Delete The EXE When Its Open, Fixed By Using This Code: if exist "SD-Security.*" echo del SD-Security.*cmd&exit
+**| Fixed Resetting SD-Security In Safe Mode Not Working
+**| Updated Logged In Screen By Replacing '(Un)Lock Private Data' With 'Lock Private Data' or 'Unlock Private Data' depending on whether it needs to be locked or unlocked. And If The Private Data Doesn't Exist It Will Say 'Create Private Data'
+**| Fixed GUI Bug, When Locking The Private Data It Has A Bit Of The Code Output In The Middle Of It
+**| Fixed A Graphical Few Bugs (Spelling, Interface etc.)
+
+^1.1.3 - 5/5/15^
+**| Decreased SD-Securitys File Size By 115KB
+++| Notifications Feature, Feature Still In Labs Though. Only Gets Notifications With Lost & Found Logs
+**| Updated 'Invalid Command' Message
+**| Updated The SD-Security Icon (Minor Design Fixes)
+
+^1.1.3B - 6/5/15^
+**| Updated SD-Security USB Icon (Higher Resolution, Template Made From 768x768 Now, Instead Of From 256x256)
+
+^1.1.4 - 13/5/15^
+**| Fixed A Few Bugs
+**| Updated All The Program To Look More Modern/Stylish
+
+^1.1.5 - 17/5/15^ ## DEV 2 Bug
+!!| Added More Code To The Startup Section, This Slows Down The Startup By 0.09 Seconds
+++| SD-Hotspot Feature, This Allows You To Deactivate/Activate The AD-HOC Network On Windows. It Also Allows You To Change The SSID/Password For It
+**| Replaced Commands Option On Logged Out Screen With 'Other', Added 'SD-Hotspot' To Logged Out/In Other Screens And Added 'Commands' Option To Logged In Other Screen
+++| Request Admin Permission API, This Will Display A Prompt Requesting ADMIN Permissions When ADMIN Permissions Are Required. See Working By Selecting SD-Hotspot In Other
+
+^1.1.6 - 21/5/15^
+++| Antivirus Security Checker, Checks The Security Of Your Antivirus By Creating A Eicar File (Called SD-SecureChecker)
+**| Fixed A Bug Caused By A Bug fix
+**| Fixed A Few Bugs Caused By Admin Permissions API (ADMIN_PERMISSIONS API STILL INTACT)
+
+^1.1.6B - 22/5/15^
+**| Fixed A Bug Causing The Whole Signed In 'Other' Page From Working (Mixed Up Variables From Signed Out Other Screen, Bug Applies In Version:1.1.6)
+**| Updated A Few Minor Things
+
+^1.1.6C - 22/5/15-23/5/15^
+**| Added Writing To Log Features On New Code
+**| Updated Data Vault Created Screen
+**| Updated Welcome Screen & Demo Screen
+!!| Program Is Exactly 500kb (1/2 A MB (Megabyte) )
+
+^1.1.7 - 23/5/15^
+!!| File Size Increased By 49KB (9.9%)
+**| Updated SD-Security Logo, Added Shadow To It, Blurred The SD-Security Text And Improved 32x32 & 24x24 Icons
+**| Updated USB Drive Logo (Added Gray Shadow)
+**| Updated The Safemode Screens (Added Colour+Different Size Window)
+
+^1.1.7B - 26/5/15^
+**| Fixed When Locking The Data Vault, If There Is A Lot Of Files In It, It Will Display Loads Of Command Output On The Screen (Fixed By Adding '>nul' At The End Of Command)
+**| Removed '1 file copied' Text After Open Log Screen
+
+^1.1.8 - 27/5/15^
+**| Updated The 'Encrypting Data Vault' Screen And The 'Decrypting Data Vault'
+**| Updated Security Breach Feature, A Random Key Is Generated For Each SD-Security And If A File With That Key As Its Name Exists Then Breach Security
+**| Updated Some Invisible Code (Code That Shows No Output)
+
+^1.1.8B - 28/5/15^
+**| Startup Time Reduced By Approx. 1 Second (1.4 Seconds)
+**| Cleaned Up Some Messy Code
+**| Removed Shadow From Smaller Drive Icons, Separated The Top From Bottom, Same Done On SD-Security Icon
+
+^1.1.9 - 30/5/15^
+++| Added Error Screens To Data Vault:
+!!| 1. When There Is No Permissions To Lock Data Vault
+!!| 2. When The Data Vault Can't Be Decrypted Because The Permissions Can't Be Changed Because Of The Owner Property
+++| Added Options To Encrypt Data Vault:
+   !!| 1. Encrypt It Without Changing Permissions
+   !!| 2. Encrypt It Using Permissions (This Feature Is 95% Secure When Plugging The Drive With The Data Vault Onto A Different Computer)
+   !!| !. This Feature Automatically Hides The Menu When The File System Is FAT (But It Still Attempts To Do The Advanced Encryption)
+**| Fixed A Bug With The 'Bug 101' Error Checker (The Varible %Bug_101_Vuln% Always Had The Value 'yes')
+!!| There Is 2377 Lines Of Code
+
+^1.1.9B - 31/5/15^
+++| Added Beep API, Beep API Allows SD-Security To Play A Beep Sound From The Command Prompt. Uses 'echo 3|choice /n' To Produce Three Beeps, Try It Out (Beep API Is Open-Source)
+**| Changed & Added A Few Remarks To The Script (You Won't Notice It)
+!!| Removing Some Old Code In ^1.1.9C^ / ^1.3.0^ (Portable Apps Code And Some Old Code Vulnerable To Attacks)
+
+^1.2.0 - 3/6/15-4/6/15^
+!!| Security Improved By 150%
+++| Added 'Hide Password' Option (To SD-Settings.ini), When This Option Is Enabled It Will Hide (Mask) The Password You Enter In The Sign In Screen And It Enables Auto Login (Login When Correct Password Entered)
+++| Added A.P.O Menu (Advanced Power Options) Into The Other Menus, A.P.O Allows You To Time A Shutdown To The PC (In Seconds)
+++| Added Command Line Switches, Allows You To Jump To A Page By Using A Command
+**| Added A Copyright Symbol After SD-Security In The Title Bar
+**| Updated SD-Security's Description (Right Click File, Details Tab)
+!!| SD-Settings.ini Needs To Be Reset After This Update, Make A Text File Called 'safemode.txt' Launch SD-Security And Select Reset Preferences
+!!| SD-Installer Needs To Be Updated
+
+
+!!  Security Downs And Ups When Using 'Hide Password' Option |
+1. When You Enter A Incorrect Username In And Hide Password Option Is Enabled, Then You Won't Be Able To See Any Hack Attempts In Log
+2. The Fact That Autologin Is Enabled, Compromises Security Because People Could Test The Password Eg. Enter A, If Not Signed In Then Enter Another Letter/Number... Though This Would Take Some Time
+^But There Are More Positives Than Negitives:^
+1. User Has To Keep On Re-Launching SD-Security (To Enter A New Password) So You Would See The Unusual Behaviour In The Log
+2. Nobody Can See The Password You Enter, Good When You Have Someone Looking At You Entering The Password (Except For The Brief Second When You Enter A New Character)
+3. The History Of The Up/Down Arrow Doesn't Exist Because To Enter The Password You Never Press Enter
+^Other Things:^
+1. Copy And Paste Is Disabled (If You Paste Something, Only The First Letter Gets Pasted In)
+2. Typing Speed Isn't As Fast (This Is Because When You Press A Character, SD-Security Is Running In The Background To Hide It)
+
+^1.2.0B - 12/6/15^
+**| Secured The Login System By 50% (Uses setlocal Command, This Means That If SD-Security Crashes Whilst It Was Called In A CMD Window The Password Variables Were Still Intact So This Fix Secures The Password)
+++| Starting To Switch To 'Call' Command Rather Than 'Goto' Command Because Its More Efficient
+**| Fixed Multiple Bugs That Occurred To SD-Security When Adding The Above Two Features
+!! Security Strength Increased By 50% |
+
+^1.2.0C - 13/6/15^
+++| Added Command Switch Help Screen
+--| Removed Long Code (This Is Code That Can Be Simplified By Using Newer Commands Or Commands Put Together Called A API)(This Reduces Size)
+
+^1.2.1 - 13/6/15^ ## DEV 2 Bug
+++| Added Time Format API, This API Basically Takes And Formats The Date And Time Variables, Useful For Displaying Easy-To-Read Time And Date
+++| Added Statistics, This Allows You To See (Inside SD-Security) The Last Computer/Username/Time/Date That Opened SD-Security
+++| Added Counting System Into SD-Security, You Can Now See How Many Times SD-Security Has Been Opened
+!!| Statistics Feature Generates A File In SDS_Files Called ^SD-Statistics.ini^, This File ONLY Logs Stuff So There Is No Settings In It
+!!| DEV5 : When Making The Statistics Feature The Rest Of SD-Security Malfunctioned, So This Statistics Feature Is A Developer Feature, Advised To Stay Version 1.2.0 Until The Rest Of SD-Security Is Stable
+
+^1.2.1B - 14/6/15^
+!!|^YAY^!!| SD-Security's Size Was Reduced By 249 Lines Of Code / 6KB From Version ^1.2.1A^ & A Few Patches Have Been Applied To DEV5 So Update,Update,Update!
+!!| Size Still Went Up 2KB Because Of All The New Features And API's
+**| SD-Security's Was Reduced By Using Newer Commands, Removed 100+ Lines By Call'ing The Theme Background And Removed Loads From The Startup Of SD-Security
+**| :( SD-Security's Startup Speed Increased 1.2.0 Was 3 Seconds Now 4-5 Seconds, Reason: Though Call'ing Is More Efficient At Writing Advanced Scripts It Is Slower Than Goto'ing Because Goto'ing Is More Direct And Also Because Of Some Of The New Features
+**| Updated The Text Input Text (The Little Color Block With A : On The End)
+**| Patches For DEV5: Fixed SD-Hotspot Not Working, Fixed When Exiting It Sometimes Crashes Without Showing The Exit Screen (Win 32 bit Only! We Think Its Because Of The Memory, So We Used Commando API)
+**| Removed Flickering Of The Loading Text At Startup
+++| New API; Commando , This Allows SD-Security To Perform A Command In A Seperate Window, Thus Removing The Wait Time For The Command & Not Returning Any Errorlevel's
+**| Now The Bad Processes Are Killed With A Commando Command, So It Doesn't Show Any Text On The "Loading..." Screen
+++| Added SD-Settings.ini Troubleshooting When It Is Non-Readable (This Means That The User Doesn't Have To Boot Into Safemode When SD-Security Crashes)
+++| Added SD-Settings.ini Troubleshooting When It Needs Updating (Now When A Feature Is Added To The SD-Settings.ini File It Will Automatically Tell You That You Need To Reset It)
+++++| Adding Loads More API's That Use Call'ing
+!!| When SD-Security Is Launched, A Command Window Opens And Closes Quickly, This Window Is Actually The Commando API Running
+
+^1.2.2 - 15/6/15^
+++| Check-OS API, This Feature Allows SD-Security To Get The Current Windows Version
+++| Wait API, This Feature Allows SD-Security To Wait A Certain Amount Of Time (This Command Uses The PING Command BUT Doesn't Actually Ping Anything, See The Notes In The Demo)
+++| Added OS Version Text Into The Log, Uses Check-OS API
+++| Added Small Fading Animation To Exit Screen And Loading Screen, Uses Wait API
+**| Updated The Loading Screen
+--| Removed The Last Of The Un-Added Feature's Code (Research Shows That It Is Impossible To Get One Of The Features To Work WITHOUT Using Additional CMD Files, We're Not Going To Use Any Additional Files Because Of The Compatibility)
+
+^1.2.2B - 18/6/15^
+++| Serial API, This Allows User To Pinpoint The Exact Computer Drive SD-Security Was Launched On (Recorded In The Security Log)
+**| Fixed A Bug With The Security Log And The Process When Making The SDS_Files Folder
+
+^1.2.2C - 20/6/15^
+**| DEV 2 Security Bug: Fixed Security Issue That Shows Password (By Typing '|echo %password%'), Fixed By Not Showing The Invalid Command
+**| Updated The Smaller Sizes Of The SD-Security Logo To Look More Detailed (1-2 Hour(s) Of Work Applied)
+++| BETA FEATURE: Added Desktop.ini API, This Should Show SD-Security On The Folder SD-Security Is Installed On (It Doesn't Update The File Though Because If It Was Installed On The Desktop It Would Corrupt The One Required By Windows)
+--| Removed Portable Apps Launcher From Source Code (10-20 Lines) (Removed Code Because It Poses A Security Threat To The Password + Reduces Size)
+
+^1.2.3 - 21/6/15^
+!!| File Size=575KB (0.575MB / 57.5% Of A Megabyte)
+**| Fixed Security Bug In The SD-Hotspot Page, Shows Password (DEV 2 Security Bug)
+**| BETA Fix On The Time And Date In The Log (Sometimes It Displays It Wrong, This Is Very Odd Because It Randomly Happens With No Reason Why)
+**| Changed The (R) Sign To A (C) Sign In The Title (Confusion With The (C) Because If You Use A Copyright Sign In The Source Code, It's Displayed As A (R) Sign)
+   **| Also Changed The All Rights Reserved Text To '(C) 2015 SD-Security'
+**| Added A Bit More Curve To The Top Of The 16 x 16 SD-Security Icon (One With The ^SD^ Text)
+++| SDS Version Variable, This Allows SD-Security To Know What Version Its Running (Mostly Used To Display To The User And In The Security Log)
+++| Installation Information Page In Other Menu, This Displays Info About The Current PC (OS, Serial, Name, Username, Time etc.) And Info About SD-Security (Times Opened, SDS Version & Installation Directory / Current Directory)
+!!| There Is 2652 Lines Of Code
+
+^1.2.3B - 22/6/15^
+**| Fixed Window Being Too Small When Using Command Switch
+**| Updated The Autorun.inf Making Process, User Now Has A Option To Not Show The SD-Security Icon On The Drive OR Create It On The Root Of The Drive (Normally It Just Created It In The Folder SD-Security Was Launched In)
+**| Updated The Desktop INI Making Process To Use The Icon From The SD-Security EXE (Not The favicon.ico)
+**| Fixed When Uninstalling SD-Security It Doesn't Delete The SD-Security EXE (Re-Coded Using Commando API)
+
+^1.2.4 - 24/6/15^
+++| Added A Updated Screen, This Screen Is Shown To A User One They Have Updated SD-Security (Version 1.2.4+ Only)
+**| FIXED SD-Security Crashing On The First Time It Runs (See The Third Fix Below)
+**| Re-Coded A Few Sections Of SD-Security To Improve Speed & Stability:
+   !!| 1. Wait API, Now It Doesn't Use The Ping Command To Work, It Simply Loops A Loop Until The Wait Number Is The Same As Th Amount Of Times It Has Looped
+   !!| 2. Screen Size, Now It Simply Call's ':SetWindow' To Set The Window Size To The Default Window Size
+   !!| 3. Method In Which The SD-Statistics File Is Handled To Improve Stability And To Remove The Error In Which The SD-Statistics Screen Didn't Show Any Data
+**| Updated Sign Out Screen (Sign In Screen When Signed In)
+
+^1.2.4B - 25/6/15^
+++|   Added A Screen Telling You To Click 'Yes' On The UAC Window When Requesting ADMIN Permissions
+++|^^ GUI API, Hybrid VBS Code In SD-Security To Display A Pop-up Window Asking The User For Data
+++|^^ Colour API, Allows Multiple Colours To Be Shown On The Screen At The Same Time
+**| Added The Colour API Into Bits Of SD-Security
+**| Updated The Check-OS API To Recognise All The Windows Versions (2003,Vista,XP,7,8,10 Preview,10)
+
+^1.2.5 - 26/6/15^
+**| Updated Wait API (Dev 4 Fix) (No Longer Needs User To Set Variable (Wait Time), Uses The Wait Time On The End Of The Command, 'call :wait 10' Would Wait For 10 Loops
+**| Updated The SD-Security Settings File Reader (Fetching The Current Values), To Allow Comments To Be Added To It
+**| Updated A Few Other API's & Features To Use The Dev 4 Fix
+
+^1.2.5B - 27/6/15^
+++| Added Permissions Checker, SD-Security Will Check The Permission Of The SDS_Files Folder And Automatically Show You 4 Options To Help You Use SD-Security In A Folder With Decreased Privileges
+**| Fixed A Few Bugs Relating To The Permission Checker (30+ DEV Versions), It Turned Out To Be That If You Launch A Batch File As An Administrator It Changes The Current Directory To 'C:\Windows\System32'
+!!| SD-Security Now Can Be Installed In The Program Files Folder
+!!| Fact: SD-Security Processes 500+ Lines Of Code In 4 Seconds EVERY Time You Open It!
+
+--   |!!| Time API Is Currently In A Dev State ^(DEV 5)^, Due To The Number Of Times It Randomly Plays Up     !!|--   |
+--   |!!| This Means That SD-Security Is In A BETA Stage, Until This Bug Can Be Solved **|UPDATE: SOLVED (2/7/15)!!|--   |
+
+^1.2.5C - 1/7/15^
+++| Randomo API, Allows SD-Security To Get A Completely Random Number Of Any Length, Uses A Formula Where If The Random Number = 7 Set The Number To The Current Millisecond In The Time
+**| Updated The Security Breach Screens To Show A Error Sometimes, This Uses The Randomo API (We Just Have To Include The Security Breach Feature ;) )
+**| Updated Some Comments (Remarks) And Added A Couple
+**| Updated The DEV 5 Code (DEV 5 Warning Still Intact) We Are Going To Be Running Some Tests On A Virtual Machine To Try And Resolve This DEV State
+!!  | Recovered Backup (SD-Security's Folder Went Corrupt, Lost Bug Fixes :( )
+
+     ^   __   _______________________________ ^
+     ^  <''> < Only A Few More Lines To 3000| ^
+     ^ -'()'- ''''''''''''''''''''''''''''''' ^
+     ^  -  -                                  ^
+
+^1.2.6 - 2/7/15^
+**| Improvements On The SD-Security Icon (Low Resolution Versions, Improved The Shape Of The Skull)
+**| Fixed SD-Security Not Setting The Window Title, Colour etc. When Launching Safemode With The Command Switch
+**| Time API Fixed (-12 Lines, This Also Speeds Up SD-Security)
+   !!| Reason Why It Played Up Is Due To The Format Of The Date & Time Changes According To The Language And User Preferences
+   !!| If User Has A 3rd Party Date And Time Handler Installed SD-Security Will Attempt To Read The Data BUT Will Probably Fail
+   ++| Added A Few More Variables So SD-Security Can Get More Out Of The Time/Date
+   **| Speed When Updating The Time And Date Decreased A Bit
+   **| Fixed A Bug That Can Show Different Information Between Different Display Types (This Could Have Caused The Date And Time Variable To Be Blank)
+   **| Removed The 0 From The Month Number (EG. Before Date Format Was Like: ^2/07/2015^ Now Its Been Shortened: ^2/7/2015^
+   **| Fixed A DEV 3 Security Bug, This Security Error Occurs 2 Times (SD-Security Used The Time&Date Variable To Get The Time/Date
+++| 1.2.6 Is A Stable Version
+
+
+^1.2.6B - 3/7/15^
+**| Fixed Some Bugs Relating To The Time And Date When Recording The Safemode Screen In The Log
+**| Fixed A DEV 2 Bug That Occurs From ^V.1.2.1^ With The Time API, The Time And Date Variables Can Be Tampered With So SD-Security Uses 'Time /t' And 'Date /t' To Get The Time And Date
+++| Instead Of Just Showing The Updated Screen It Will Show A Downgraded Screen According To What Action You Performed
+
+^1.2.6C - 4/7/15^
+++| RealTime Encryption API BETA, This Allows SD-Security To Encrypt Some Text In Realtime. This Feature Might Be Added To Encrypto To Provide Extra Security
+   !!| This API Is Currently Being Worked On To Optimise Performance And To Remove Bugs
+   !!| SD-Security Is NOT Going To Go Into A BETA Stage Because This API Is Currently Not Used
+
+^1.2.7 - 15/7/15^
+++| Added Variable That Can Be Changed To Allow SD-Security To Be Launched With A .scr, .com, .exe, .bat, .cmd Extension (And Other User Defined Exefile Extensions)
+**| Fixed A Delay Between The SD-Network Starting Network Code, So User Can See If There Is An Error
+
+^1.2.7B - 24/7/15^
+**| Fixed A DEV 2 Bug That Occurs From ^V.1.1.5^, The %cd% Variable Is Now Secure
+**| Fixed A DEV 2 Bug, The %random% Variable Is Now Secure
+**| Updated The Skull On The Icon, To The New Version, Centered The Icon, And Made The Text Easier To Read
+
+^1.2.8 - 28/7/15^
+**| Fixed When Signing In With USB, SD-Security Crashes (Missing Escape Sign For Escaping A Pipe When Writing To The Log)
+**| Re-Fixed Window Size Being To Small When Passing Commands To SD-Security
+++| Crash Helper API, This Feature Took Blood And Sweat To Make But Here It Is. This API Tells The User If The SD-Security Window Crashes
+   !!| The Crashed Screen Will Always Show Unless SD-Security Is Exited The Correct Way (exit 999)
+   !!| So This Screen Could Show IF A EXIT COMMAND HAS'NT GOT AN EXIT CODE
+   !!| This Feature Works By: Call'ing CMD, And CMD Is Call'ing SD-Security, So That Means If SD-Security Crashes, Code Can Still Be Run. The Reason It Calls CMD Is Because Normally Call'ing SD-Security Crashes Everything
+   !!| This Feature Has To Control /? Command Switch Option Because Adding /? To A Program When Call'ing, Displays The Help Of The Call Command
+   !!| Safemode Skips This Feature (Reason: Because This API Could Fail If New Features Are Added That Conflict With This)
+   !!| This Feature Depends On CMD.EXE So It Could Reduce Compatability On Older PC's
+--| Feature Downgraded, Multiple Bugs Found When Testing The Code, This API Upgrade Will Have To Be Re-Wrote, **|RE-ADDED In V.1.3.5 (18/9/15)
+--| **| Updated The Hide-Password API
+
+^1.2.8B - 31/7/15^
+**| Fixed A Security Bug, That Allows The User To Gain Access The Account By Setting Variable With No SDS_Files And By Overwriting The Date / Time Commands
+**| Fixed Hotspot Bug (Missing Letter On The End Of A Goto Command)
+**| Fixed Time API Failing Because Of When A DEV 2 Bug Fixed (The '%time%' Variable And 'Time /T' Have Different Formats Of The '00' (12 AM) And Removed The '24' In The Minutes Detector)
+**| Speeded Startup Time By Approx. ^0.1-0.5^ Seconds
+   --| Removed Checking Of Bug 101 If It Says To Hide The Error In Settings (Improves Speed And Also Hides Other Instances Of It)
+   **| Renamed And Moved A Few Batch Labels To Improve The Speed And Remove A Few Bugs
+   **| Fixed Favicon.ico Being Visible For 3+ Seconds When SD-Security Is Starting
+**| Updated SD-Security Uninstaller (In Safemode), It Allows The User To Specify The Name Of The EXE. Also Updated The Method Of Deleting The EXE (Ues The Commando API To Provide A A New Window)
+++| Developer Options, (Can Be Found In Other Menu) This Allows The User To Do Developer Actions Like, Crash SD-Security, Reboot To Safemode, More Features Coming In Later Updates
+## Two ^DEV 3^ Instances Found, Unresolved (%username%, %computername%)
+
+^1.2.8C - 1/8/15^
+!!| 2 New Files To The SDS_Files Folder:
+   !!| SD-Updater.ini    : The Settings File For The SD-Updater API
+   !!| LatestVersion.ini : A File Which Is Downloaded From The Web Every Time The SD-Updater API Checks For Updates. This File Displays The Latest Version Of SD-Security That Is On The SD-Updater Server
+++| SD-Updater API, You Can Now Check For Updates To SD-Security Over The Internet Or Over The WiFi. This Feature Allows You To Update All SD-Security Installations To One Version (This Feature Is Still In BETA)
+   !!| This Feature Uses The Internet, If You Don't Have Any Internet Connection This Feature Will Display An Error Screen
+   !!| This Feature Isn't Compatible With Most Windows XP Computers And Some PC's With Powershell Disabled. An Error Screen Will Show When This Is Detected
+   !!| This Feature Could Have MILLIONS Of Different Errors, But For Now It Just Has Two Universal Error Screens
+**| Updated The Other Screen, It Now Has 'Folders', All The Stuff Has Been Moved Into These 'Folder' Screens
+++| Notify API, This API Allows SD-Security To Display Notifications In The Notification Area With Custom Icons, Text And Titles
+   !!| Uses Powershell, If Powershell Isn't Installed, Then Nothing Will Show
+
+^1.2.9 - 2/8/15^
+!!| If Updating From ^1.2.8C^ You May Have The SD-Updater Server Misconfigured (Delete 'SDS_Files\SD-Updater.ini' To Reset)
+++| Added SD-Updater Servers (Hosted On Dropbox)
+   !!| Dropbox (Default): http://www.dropbox.com/s/r6gyfh9kc9sqy3t/SD-Security.exe?dl=1 For The SD-Security Executable
+   !!| Dropbox (Default): http://www.dropbox.com/s/kue59qjeasq0tp7/OnlineVersion.txt?dl=1 For The Online Version File
+**| Improvements To The SD-Updater Updating System (Deletes The OnlineVersion.txt When 'Check For Updates' Is Run, This Stops It From Saying Anything After An Error Occurs)
+++| Added Use Of The Notify API Throughout SD-Security
+**| Updated The Notify API To Use The Commando API To Pass Commands To Powershell Because It Speeds Up SD-Security By 3-5 Seconds When The Notify API Is Call'ed
+++| Get-Ip API, This Allows SD-Security To Get The IP Address Of A PC On The Network (This Is Going To Be Made Into A New Feature)
+
+^1.2.9B - 4/8/15^
+** Compiler Updated |
+   !!| The Compiler Has Been Updated To V.2.3.1, This Update Required Some Updates To The Command Switch's Code:
+      **| The Command Switch API Has Been Updated, No Longer Uses '%*' To Get Switch Instead Uses '%1', Reason: Bat To Exe Changes The '%*' Variable To Include The EXE Name, This Was Causing SD-Security To Crash
+         **| This Also Means That Only The First Word Of The Command Switch Is Reads ('%*' Would Display All The Command Switches Entered)
+      **| This Update Enables SD-Security To Overcome Bug 100 (EXE Name)
+++| The SD-Security EXE Has Been Signed Using An SD-Storage Application Certificate - But You Need To Install The Certificate If You Want Windows To Recognise It As A Trusted Publisher (Reason: This Is Open-Source Software So We Won't Buy A Profesional Certificate For SD-Security)
+   !!| This Certificate Is Valid From 3/8/15 to 3/8/20
+
+^1.2.9C - 6/8/15^
+**| Fixed APO (Advanced Power Options) Bug That Stops The Basic Timer From Working On Some PC's
+**| Updated The Lower Quality Version Of The SD-Security Icon And Updated The Favicon.ico With A New Design Of The USB In The Middle, Added A Windows Logo In The Bottom Right (To Show That The Drive Uses A Windows Operating System) And Made The SD-Security Icon In The Bottom Left Clear On All The Sizes
+++| Get IP Screen, (Find It In 'Other>SD-Software>Get IP') You Can Now Easily Get The IP Address Of A PC On Your Network / Check If It Is Connected By Entering Its PC Name
+
+^1.3.0 - 12/8/15^
+!!| Folder Added To SDS_Files Folder
+++| Session Manager, DEV This API Allow The User To Save The Current Session Of SD-Security By Typing All The Variables Into A File And Then Restoring Them From That File
+   !!| You Can Create A Backup Of A Session By Typing 'Backup' Into The Home Screen
+   !!| This Feature Is Not Stable Enough To Use Right Now, Though It Could Be A Security Hole So It Is Currently In A DEV State
+   !!| Known Issues,
+      !!| Additional Spaces Are Added Onto The End Of Variables When Restored - Reason Unknown
+      !!| Crashes Sometimes
+   !!| This API Writes All The Variables To The File, This Would Include The Password BUT We Made It So It Doesn't Write The Password To The File
+
+^1.3.0B - 14/8/15^
+**| Session Manager Updated Currently !!STABLE!|
+   **| Fixed A Space Being Added Onto The End Of All Variables
+   **| Fixed Multiple Bugs
+   ++| Added Two Settings For The Session Manager:
+      !!| To Disable Auto-Restore, Create A File Named 'DisableAutoRestore.txt' (Or With Any Other Extension). Auto-Restore Is Default Enabled, Because It Speeds Up The Booting Time. It Is Recommended That You Keep It Enabled, But You Don't Have To
+      !!| To Enable Auto-Save Permanently, Create A File Named 'DefaultEnable.txt' (Or With Any Other Extension). This Feature COULD Cause SD-Security To Crash, Due To The Fact It Never Refreshes The Info. SD-Security Won't Alert You About Any Error While This Feature Is On Enabled. SD-Security Will Only Automatically Restore Though, If You Exit By Selecting 'Exit' On The Home Screen
+   ++| Added Entry In The Safemode Screen To Clear The Saved Sessions And Clear The Settings For This API
+++| File Encrypter API, This API Could Be Merged Into/Replace The RealTime Encryption API
+   !!| This API Can Encrypt Text Files, Though This Method Is Quite Slow (4-6 Characters/Second) It Can Be Used With Encrypto To Provide RealEncryption
+   !!| This API Doesn't Require Powershell Or VBS (Pure CMD Solution)
+**| Fixed A Few Bugs
+**| Optimized A Few Lines Of Code In SD-Security
+
+^1.3.0C - 24/8/15^
+****| Compiled Updated From 2.3.1 To 2.3.2
+  !!| This Update Stops The Source Code From Being Viewed In Tools Like Resource Hacker
+**| BUG 100 Resolved! All The Error Screens Relating To This Bug Have Been Removed, Thus Reducing The Size Of SDS
+   !!| SD-Security Can Now Be Launched With Any Filename And All The Features Will Work Like Normal
+   !!| This Bug Was Resolved With The Latest Update To The Compiler
+**| The Get-Admin-Permissions API Now Gets Call'ed, This Reduces The Repeat Of Code (50+ Lines)
+**| The Computer Name & Username Is Only Shown Once In The Log At Startup (Makes The Log Easier To Read
+
+^1.3.1 - 25/8/15^
+**| Fixed The 'Bug 101 Checking System' Having A False Positive On Some Computers
+   **| Updated The Bug 101 Checking Method
+   !!| This Patch Fixes The 'Encrypt Data Vault' Options From Not Showing
+**| The Theme API Is Now Compact, Instead Of Call'ing A Label To Set The Theme, It Just Reads A Variable With The Raw Theme Value.
+   !!| This Fix Increases The Performance Of SD-Security By 10% When Selecting Different Screens
+**| Improved The Way SD-Security Loads The Signed In Version Of The Home Screen
+**| Changed The Wording Of Some Words (You Probably Won't Even Notice It!)
+
+^1.3.1B - 27/5/15^
+**| Bug 101 Detection Method Updated (Uses
+   !!| This Patch Increased Stability And The Startup Speed
+   !!| This Method Relies On The 'FsUtil' Command, If The Command Isn't Supported THEN Bug 101 Checking Won't Work
+
+^1.3.1C - 1/9/15^
+++| Switch API, This API Allows SDS To Display 'Checkboxes' That Can Be Ticked/Unticked Very Quickly
+   !!| Once The API Has Been Loaded, A Code Sample: '%switch% firstswitch'
+++| Change Settings Screen, Now You Can Change The Settings Of SDS WITHOUT Editing The SD-Settings.ini File
+   !!| This API Uses The Switch API
+   ++| This API Brings A Overwrite Settings API Too
+**| Fixed Spaces Being Added On To The End Of The SD-Settings.ini File
+++| Input Securer API, This API Protects User All User Input Fields From DEV 2 And DEV 3
+   !!| This Slows All User Input Fields By 9-13 (Average: 10) Milliseconds
+**| Color API Now Creates The Temporary Files In The %TEMP% Folder
+   **| Uses 'Pushd' And 'Popd' Commands To Achieve This
+
+^1.3.2 - 4/9/15^
+**| SD-Security Icon Updated On All Sizes
+   --| Removed Some Resolutions That Are Not Neccesary. This Reduces EXE Size By ^117 KB^
+
+^1.3.2B - 6/9/15^
+++| 'Change Theme' Page (In Settings), It Now Includes A Preview Of All The Themes (Uses Color API)
+   ++| Two New Settings On The Settings Page: 'Auto-Save Session' & 'Disable Auto-Restore'
+   **| Added Exit Option To 'Restart SDS To Apply Changes' Page
+   **| Fixed The Theme Being Reverted If You Select Postpone, It Will Now Keep The New Theme Always
+**| Fixed A Space Being Added Onto The End Of The Version Number (In Version_No.ini)
+   !!| This Crashed SD-Security On Some Odd Occasions When Checking For Updates
+
+^1.3.2C - 7/9/15^
+++| Status Helper API, This Helper API Stops 50% Of EOP (Escalation Of Priveledges) Attacks
+   **| This Update Also Changes The Status Variables From 'Signed-In'/'Signed-Out' To 'Signed In'/'Signed Out'
+**| Welcome Screen Updated, Now Uses The Color API
+**| Default Colour Theme Is Now 'Aqua' Not 'Dark_Aqua'
+   !!| Reason (A Change Is Good!)
+
+^1.3.3 - 9/9/15^
+**| Updated The 'SD-Security Crashed Due To Above' Text To A Modern Design
+**| SD-Security Icon (16x16) Updated (Yes Again!), It Now Has The 'SD' Text Clearly Displayed And Has Nice Curves On It
+   **| Favicon.ico Updated, It Now Has The New SD-Security Icons In It
+**| Master Override Screen Updated, It Now Looks Very Complex BUT It Is All Fake (EG. The Terminal, Commands etc.)
+**| Fixed A Bug That Caused SDS To Display A False-Positive Crash, When Rebooting To Apply Settings
+   !!| To Reboot SDS All You Have To Do Is 'Exit 777' And SDS Will Just Reboot
+!!| In Some Cases, A Command Error Appears When Loading SD-Security, This Is Still Being Tracked Down And Should Be Fixed In Version ^1.4.0^
+
+!! SDS Size Update:|
+!! The Smallest SDS EXE Is V.1.3.2 @ 475KB (Excluding V.1.0.0)|
+!! The Second Smallest SDS EXE Is V.1.3.3 @ 481KB|
+!! The Largest  SDS EXE Is V.1.1.2 @ 639KB (164KB Bigger)|
+
+^1.3.3B - 10/9/15^
+**| Updated Color Command To Work When The Findstr Command Is Not Available
+   !!| It Will Just Display The Text (No Color)
+**| Updated Crash Report Screen To Show A 'Reboot' Option
+
+^1.3.3C - 11/9/15^ ##EOP Bug(s) (Via Plugins API) (Fixed In 1.3.4)
+**| Some Small Updates In The About Screen
+**| Removed Some Error Screens, Due To Input Securer API, Fixing These Issues
+++| DEV Plugins API, Currently DEV
+   !!| This API Allows Custom Plugins To Be Loaded Into SD-Security, DEV DEV DEV!
+   !!| This API Needs Loads Of Securing, Due To It Could Be A Big Security Vulnerability
+
+^1.3.4 - 12/9/15^
+**| Plugin API Updated
+   ++| Apps API, This API Is Accessible By The 'Other' Page Under Custom Apps. This Allows Custom APPS To Be Launched
+   ++| Ability To Uninstall Plugins, Via 'Custom Apps' Page And Safemode Homepage
+   --| The Plugins.ini File Has Been Removed
+   **| The Proccess Now Relies On The DIR Command To Show All The Folder And Then CD Into Them Then Launch The Plugins
+   **| 2 Major Security Flaws Have Been Fixed
+   !!| Any Variables Set By The Plugins Are Ignored By SDS
+**| A Few Adjustment For The Plugin API Have Been Made (Safemode Screen, Etc.)
+
+^1.3.4B - 15/9/15^
+**| USB Authentication Screens Updated
+   --| Removed The Loading Animation From The Configuring Key Screen
+   **| The Random Key Has Been Lengthened, This Improves Security
+   **| Fixed The Authentication Sometimes Showing That The Drive Is Incorrect, When It Is Correct (This Happened Because Of A File Attrib Bug)
+   **| Updated The Method Of Detecting The USB, It Now Requires No User Input (Having To Press A Key)
+
+^1.3.4C - 17/9/15^
+^^## Sign-In System In BETA Stage! ##^^
+++| Verify Command Line Switch
+   !!| This Allows You To Sign Into SD-Security By Using A Command Line Switch, EG. 'SD-Security.exe verify MyUsername MyPassword' Would Try To Sign In Using 'MyUsername' As The Username And 'MyPassword' As The Password
+**| BETA UPDATE On User Profile System
+   !!| Now The Username And Password Variables Have Changed To '%user1% %user2% %password1% %password2%'
+   !!| The Sign-In Authentication Method Has Been Automated, So Now All SDS Has To Do Is 'call :SignInNow "%UserName%" "%Password%"' To Authenticate A User Sign In
+   !!!!| The Hide-Password API Hasn't Been Tested Yet, It Could Have Some Bugs In It, Due To The Authentication Method Update
+**| A Few Small Updates (Bad Spellings, Small Speed Updates ETC.)
+
+^1.3.5 - 18/9/15^
+**| Sign-In System Is Now Stable
+**| The Hide Password API Has Been Updated, It Has Been Renamed To The 'Mask Password' API
+   !!| Autologin Has Been Disabled Due To Security Reasons
+   !!| Backspace Key Has Been Enabled
+   !!| Fixed Password Flashing When User Typed It In, The Case Is Also Preserved
+   !!| Speed Increased By 50%
+   !!| All Possible Characters Are Available To Use & Removed Beep Sound
+   !!| API Reduced SDS EXE Size By Approx. 1-2KB
+   !!!!| This API Uses Delayed Expansion, Extensions And The Replace.exe Command To Provide This Update
+   ##!!| Some Bugs Occured In The Compiled Version Of SDS, To Fix This, A TMP File Needs To Be Created In The %Temp% Folder
+
+^1.3.5B - 26/9/15^
+**| Fixed Crash Helper Bug
+   !!| This Bug Caused SDS To Reboot, When The User Selected 'Exit'
+      !!| Reason: The Command Line Switch API Caused A Bit Of Conflict With The Crash Helper API
+++| Emailer, This SD-Application Allows The User To Generate Emails (MAILTO Links)
+   !!| Special Characters (Such As '&"|') Are Not Supported In The Message Content
+**| Fixed Manual Crashing From Not Working (Re-ordered The Errorlevel Checking (Largest To Smallest / >))
+
+^1.3.5C - 28/9/15^
+++| Startup Time API
+   !!| This API Allows SD-Security To Record How Long It Took To Boot SD-Security
+   !!| This API Performs Some Mathmatical Operations Using Brackets, Subtraction And Addition, To Get The Current Time In Seconds, Here Is The Process: (HOUR*3600)+(MINUTES*60)+SECONDS
+   ++| Added Setting For The Startup Time API In ^Other(Signed In)>Admin Options>Change Settings^
+**| Some Small Bug Fixes
+
+^1.3.6 - 4/10/15^
+++| Debugging Stats, Find It In 'Other>Developer Options'. This Screen Shows Most Of The Advanced Info Of SD-Security
+++| Ability To Disable The Crash Helper API, Find It In 'Other(Signed In)>Admin Options>Change Settings'
+   !!| When The Crash Helper API Is Disabled, There Is A File (DisableCrashHelper.ini) In The SDS_Files Folder
+**| Fixed A Bug In The 'Change Settings' Screen
+**| Fixed A Security Bug In The Encrypto Screen (DEV 3 BUG, Cause: Unquoted Variables)
+
+^1.3.7 - 6/10/15^
+++| App Info API, This API Allows Apps To Include A Description Of What They Do And The App Specs
+   !!| Access This API By Going Into Other>Custom Apps>[Then Type 'Info']
+   !!| A App Has Been Released To Generate A Help File Quickly, See 'HelpGenerator'
+
+^1.3.7B - 9/10/15^
+**| Updated The 'SDS Crashed' Text
+**| Fixed Security Issue In The Sessions API (Password Was Saved To Text File)
+++| Added 'Boot Mode' To Debugging Stats, This Uses The Sessions API
+++| **| SD-Commandr API Was Updated To The New ^CMD++^ API. This Update Brings New Commands, More Command Support And Colors!
+   !!| This API Is Available In The SD-APP Format, See SD-Security's Webpage
+
+^1.3.8 - 22/10/15^
+++| AdminCMD V1 API, This Is A Massive Update!
+   !!| This API Allows SD-Security To Launch A Console That Can Have Admin Permissions WITHOUT Having To Reboot SDS
+   !!| This API Uses Microsoft's VBScript To Hide The Console Window
+   !!| This API Can Be Used To Provide Behind-The-Scene Calculations For SD-Security + It Doesn't Require Much Space (590 Bytes In Total)
+   !!| An Additional Process Is Launched When This API Is Active
+   !!| Settings Have Been Integrated Into The Developer Options Menu
+   **| This API Has Had 65+ Builds
+   !!| AdminCMD API Is Launched In The %TEMP% Folder And Only ONE Instance Is Needed For All SDS EXEs To Have Admin Permissions
+!!| Fixed A Bug With SD-Hotspot, This Bug Caused It To Malfunction
+
+^1.3.8B - 26/10/15^
+**| Updated AdminCMD V1 API
+!!   | An Additional Entry Has Been Added Into SD-Settings.ini, So You Will Have To Reset Them (This Is An Automated Process)
+++| AdminCMD+ + V2 API, This Update Uses The Clipboard To Execute Commands
+   !!| This API Uses VBScript To Read The Clipboard And Clip.exe To Set The Clipboard
+   !!| This API Can Be Launched By Copying This Text: $ADMINCMD$.Execute*run*&start cmd
+   !!| A Password Feature Has Been Implemented Into This API, It Isn't Customizable Yet (The Password Is 'run')
+   !!| You Can Switch Back To AdminCMD V1 By Going Into The Settings Of SDS
+
+^1.3.8C - 27/10/15^
+**| Updated The File Attributes System To Use The Newer Icacls.exe Command
+   !!| This Removes An Error Message That Appears On Fat(32) Drives
+
+^1.3.9 - 8/11/15^
+**| Increased Startup Time, By Making The Booting Process More Efficient
+++| Crypt API, This Allows The Profile System To Be Generated By The User
+   !!| Code Is Disabled, Until A Quicker Method Is Found (Takes around 30 seconds!)
+**| Update CMD+ + To V1.4.1100
+   !!| This Update Increases Speed + Includes A Small Help Page
+
+^1.3.9B - 14/11/15^
+**| Updates To The AdminCMD Developer Options
+   ++| Added A Option To Clear The Cached AdminCMD(+ +) Files, This Can Prevent AdminCMD From Malfunctioning. Find This In 'Developer Options>AdminCMD...'
+   ++| Added A Option To Show The AdminCMD(+ +) Window, This Allows You To Debug/Record The Outcome Of A Command
+
+^1.3.9C - 17/11/15^
+**| Updated AdminCMD+ + API, It Now Includes An Admin Per. Checking System. You Can View The Output If You Enable The Option To Show The AdminCMD(+ +) Window
+
+^1.4.0 - 1/1/16^
+**| Fixed 2 Possible Infinite Loops In The Launch App Menus
+**| Re-Disabled Crypt API In Boot Process
+++| Added 'Launch App With Full Permissions' Option
+   !!| This Allows You To Run Apps Without Sandboxing Them, All Variables Are Accessible With R/W Permissions
+   !!| This Feature Could Allow Apps To View Or Temp. Change Your Username/Password
+   !!| You Are Required To Be Signed-In To Use This Feature
+!! ITS 2016!!!!| So We Updated The Year Variable
+
+^1.4.0B - 3/1/16^
+++| External Input Method
+   !!| Easily Input To SD-Security Via Tunneling Text File, This Only Works When The Input Field Uses The Input Securer API
+   !!| Intergrated On-Off Switch Into The Settings Menu, TO DISABLE THIS API SIMPLY DELETE SDS_Files\Ext.Input
+   !!| With This API Enabled, SD-Security Will Not Receive Input From The Main Window
+**| Minor Alterations
+
+^1.4.0C - 24/1/16^
+**| Updated Autorun.inf Generation To Remove Bugs And Simplified It, No User Input Is Required Now
+   ++| Added Option To Regenerate Autorun File, Find It In The Developer Options Folder
+**| Fixed Some Other Small Bugs
+
+^1.4.1 - 30/1/16^
+!!!| The Developing Folder Of SDS Has Been Dramatically Changed, We Have Compared The Hashes Of The Old And New Builds And They're Identical
+--| Removed Lost & Found Screen
+--| Removed Notifications Screen
+**| Reorganised The Menus
+++| Auto-Lockout API, This API Automatically Locks SDS After 5 Incorrect Password Trials
+   ++| This Uses The: Lockdown API, This API Disables Access To All Of SDS. To Regain Access, Any User Has To Enter Their Password
+   !!| This API Is Fully Integrated Into SDS, It Has 2nd Priority To The Safemode API And Higher Priority Than The Crash Helper API
+**| New Folder In SDS_Files: SDS_Files\Security\
+   **| The Security Log Has Been Moved To "SDS_FILES\Security\SD-Security.SDS_LOG"
+
+^1.4.1B - 21/2/16^
+**| Removed An Error That Shows Upon Logon, This Was To Reset The Auto-Lockout Countdown File
+
+^1.4.1C - 4/3/16^
+++| Download API, This API Simplifies The Method Of Downloading Files From The Internet And Local Network
+   **| Also Added A 'File Downloader' Feature, Find It In Other>SD-Software Folder>File Downloader
+**| Fixed A Few Bugs
+
+^1.4.2 - 6/3/16^
+**| Fixed Mayjor Security Flaw:
+   !!| When The User Is Signed In Successfully, The User Control System Can Be Overridden By Entering Any Password
+   !!| EG. Sign Into SD-Security, Try And Unlock The Data Vault, Enter Any Password & It's Accepted
+   **| Fixed This By: If You Enter The Wrong Password When Your Signed In, Then You Are Signed Out
+++| CTRL-C Detector API, This API Can Show A Popup And Detect Whether The Popup Was Exited OR If The User Entered CTRL-C
+   !!| This Has Been Implemented Into The FAT(32) Data Vault Lock Screen
+
+^1.4.2C - 8/5/16^
+# Version Corrupt # The Source Code Of SDS Was Corrupted! We Managed To Recover From The Bug-Free Version ^1.4.2B^
+####################################################################################
+##++| SD-Security Compatibility Warning
+##   !!| This Warning Is Displayed To The User, When Their Windows Version Is Below Windows 7
+##   !!| This Warning Has Been Added, Because SDS Showed Multiple Errors When Tested On Windows XP.
+####################################################################################

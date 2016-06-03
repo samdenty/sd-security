@@ -1,0 +1,10 @@
+To Display SD-Security In The Text Format It Was Made In Do This:
+
+1. Open SD-Security
+2. Click Defaults, Font Tab
+3. Click Raster Fonts, 8 x 12
+4. Click OK
+5. Right Click The Title Bar
+6. Click Properties, Font Tab
+7. Click Raster Fonts, 8 x 12
+8. Click OK

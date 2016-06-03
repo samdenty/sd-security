@@ -1,0 +1,14 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling d:\Unlocked\Batch Files\Project Security\Archives\HelpFile\SD-Security.chm
+
+
+Compile time: 0 minutes, 2 seconds
+13	Topics
+54	Local links
+7	Internet links
+9	Graphics
+
+
+Created d:\Unlocked\Batch Files\Project Security\Archives\HelpFile\SD-Security.chm, 286,961 bytes
+Compression decreased file by 67,090 bytes.

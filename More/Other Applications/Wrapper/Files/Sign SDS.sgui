@@ -1,0 +1,9 @@
+SignTool=D:\Unlocked\Command Prompt Tools\signtool.exe
+PFX=D:\Unlocked\Batch Files\Project Security\BETA\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=SD-Security Wrapper
+ProgramURL=http://SD-Storage.weebly.com/#SdsWrapper
+File1=D:\Unlocked\Batch Files\Project Security\BETA\Extra's\Wrapper\Files\econsole.exe
+File2=D:\Unlocked\Batch Files\Project Security\BETA\Extra's\Wrapper\Files\NViewLib.dll
+File3=D:\Unlocked\Batch Files\Project Security\BETA\Extra's\Wrapper\Wrapper.exe

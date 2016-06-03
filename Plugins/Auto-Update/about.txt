@@ -1,0 +1,27 @@
+€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+€ App/Plugin Name € Auto Updater For SDS
+€ Author          € Samuel Denty ﬂXLR8ﬂ (The Developer Of SD-Security)
+€ Creation Date   € 12/9/15
+€ Update Date     € 13/9/15
+€ Support         € SD-Security 1.3.4+
+€ Windows Support € Windows XP+ (Provided Powershell Is Installed)
+€ Script Language € Batch File + Compiled Batch File (EXE)
+€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+                                   €ﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                   € INFO €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+This Plugin Enables SD-Security To Check For Updates At Startup, In The Background.
+It Uses An Compiled Batch File (UpdtrSrvc.exe) To Provide The Background Service.
+It Also Uses The URLS Stored In SDS_Files\SD-Updater.ini To Stream Updates, Then
+Uses Powershell As The Download Platform. If Powershell Is Not Installed, A Error
+Will Popup And You Can Continue Like Normal.
+
+                                 €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                 € Settings €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+SETTINGS:
+Ability To Disable/Enable The Auto-Update Feature
+Ability To Hide All Error Messages

@@ -1,0 +1,7 @@
+SignTool=D:\Unlocked\Dropbox\Command Prompt Tools\signtool.exe
+PFX=D:\Unlocked\Batch Files\Project Security\BETA\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=SDS Compiler
+ProgramURL=http://SD-Storage.weebly.com/#SDS
+File1=D:\Project Security\Compiler\Build SDS.exe

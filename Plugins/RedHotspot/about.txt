@@ -1,0 +1,29 @@
+€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+€ App/Plugin Name € RedHotspot
+€ Author          € Samuel Denty ﬂXLR8ﬂ (The Developer Of SD-Security)
+€ Creation Date   € 4/12/15
+€ Update Date     € 4/12/15
+€ Support         € SD-Security 1.3.4+
+€ Windows Support € Windows XP+ (May support below version of Windows as well)
+€ Script Language € Batch File + Compiled Batch File (EXE)
+€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+                                   €ﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                   € INFO €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+Easily Turn Your PC Into A Red-Hot Hotspot! Simply Launch The EXE As Admin, Then
+           You Can Connect To The Network On Any WiFi Compatible Device!
+             ** You Might Need To Setup The Network At First Launch **
+
+                                 €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                 € Features €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+* Get Notified If There Is Ever A Problem With The Network
+* Easily View The Log, To Help You Setup The Network
+* Protected Against Anyone Finding Out Your WiFi Password
+* Nice Easy-To-Use GUI (Windows With Buttons)
+* Small EXE Size (Approx. 330KB)
+* No Background Process, Hogging Up Your Precious RAM
+* Quick Launch Time (Network Is Enabled In A Matter Of Seconds)

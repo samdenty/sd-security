@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Helpinator">
+<title>Error Codes</title>
+<link rel="stylesheet" type="text/css" href="default.css" />
+
+<link rel="stylesheet" href="globalstyles.css" type="text/css" media="screen" /><script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.highlight.js"></script>
+<script type="text/javascript" src="highlight.js"></script>	<script type="text/javascript"><!--
+		var sTopicId = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+		if (top.frames.length == 0)
+			top.location.href = "index.html?" + sTopicId
+		else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			top.FrameTOC.SelectTocItem(sTopicId);
+	</script>
+</head>
+
+<body>
+<div id="container">
+
+	<table id="header" cellspacing="0" bgcolor="#6FA7D1" >
+  <tr>
+		<td width="74">
+                        <div id="logo">
+			<img src="help.png"  width="64" height="64" alt="help" />
+                        </div>
+		</td>
+
+		<td>                       
+			     <h1>Error Codes</h1>                     
+		</td>
+		
+		<td width="74">
+			<div id="navprev">
+				<a href="features.html">
+				<img src="prevtopic.png" width="32" height="32" alt="previous" />
+				</a>
+			</div>
+			<div id="navnext">
+				<a href="apis.html">
+				<img src="nexttopic.png" width="32" height="32" alt="next"/>
+				</a>
+			</div>
+			
+			
+			
+			
+		</td>
+		
+	</tr>	
+	</table>
+		
+	<div id="breadcrumbs"><a href="features.html">Other</a>&nbsp;>&nbsp;<a href="other.html">Error Codes</a></div>
+	
+	<div id="content">
+	
+		
+	
+		<p class=rvps147><img width=208 height=208 alt="" src="other1.tif"></p>
+<p><span class=rvts129><br></span></p>
+<div><table border=1 cellpadding=1 cellspacing=2>
+<tr valign=top>
+<td width=91 style="border-style: inset;"><p>Bug 101</p>
+</td>
+<td width=975 style="border-style: inset;"><p><span class=rvts131>Security is compromised on </span><span class=rvts132>FAT(32)</span><span class=rvts131> because of the lack of permissions. To fix this, simply convert your drive to </span><span class=rvts132>NTFS</span><span class=rvts131>.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td width=91 style="border-style: inset;"><p>Bug 102</p>
+</td>
+<td width=975 style="border-style: inset;"><p>The source of SD-Security could possibly be modified, so always check that the SDS exe is <span class=rvts130>signed</span> with the <span class=rvts130>SD-Storage certificate</span>.</p>
+</td>
+</tr>
+<tr valign=top>
+<td width=91 style="border-style: inset;"><p>Bug 103</p>
+</td>
+<td width=975 style="border-style: inset;"><p>SD-Security has to be launched in the same <span class=rvts130>directory as the exe</span>, to retain the configuration. plugins. sessions, data vault etc.</p>
+</td>
+</tr>
+<tr valign=top>
+<td width=91 style="border-style: inset;"><p>Bug 104</p>
+</td>
+<td width=975 style="border-style: inset;"><p>If the drive is NTFS and you use SDS on one PC, then use it on another PC, then SDS will display an <span class=rvts130>error</span> with the <span class=rvts130>settings file</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td width=91 style="border-style: inset;"><p>DEV 2 Bug</p>
+</td>
+<td width=975 style="border-style: inset;"><p>This security flaw, allows the user to inject code into SD-Security by using ampersands, quotes and other special characters in <span class=rvts130>input fields</span>.</p>
+</td>
+</tr>
+<tr valign=top>
+<td width=91 style="border-style: inset;"><p>DEV 3 Bug</p>
+</td>
+<td width=975 style="border-style: inset;"><p>This security flaw, allows the user to inject code into SD-Security by using ampersands, quotes and other special characters by <span class=rvts130>changing system variables</span>, eg. %time%, %date%, %cd% etc.</p>
+</td>
+</tr>
+<tr valign=top>
+<td width=91 style="border-style: inset;"><p>DEV 5 Bug</p>
+</td>
+<td width=975 style="border-style: inset;"><p>The time &amp; date API displays the date/time wrong. This is because of an unsupported time format/zone.</p>
+</td>
+</tr>
+</table>
+</div>
+
+		<div class="spacer15px"></div>
+		
+		<div class="spacer15px"></div>
+		
+	</div>
+	
+	<div class="spacer5px"></div>
+	
+	<div id="footer">
+	&copy; 2015 SD-Storage
+	</div>
+</div>
+</body>
+</html>

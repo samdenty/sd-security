@@ -1,0 +1,7 @@
+SignTool=D:\Unlocked\Command Prompt Tools\signtool.exe
+PFX=D:\Unlocked\Batch Files\Security\BETA\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=Logger++ Plugin For SDS
+ProgramURL=http://SD-Storage.weebly.com/#Logger++PluginSDS
+File1=D:\Unlocked\Batch Files\Security\BETA\Plugins\Logger++_DEV_DISABLE\Logger++.exe

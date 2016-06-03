@@ -1,0 +1,49 @@
+<HTA:APPLICATION
+borderStyle="normal"
+caption="yes"
+maximizeButton="no"
+minimizeButton="no"
+showInTaskbar="yes"
+icon="C:\Users\Samuel Denty\Pictures\File_Icons\AdminCMD.ico"
+windowState="normal"
+innerBorder="no"
+navigable="no"
+scroll="no"
+scrollFlat="yes" />
+<title>AdminCMD API Example</title>
+<style>
+.btn {
+border: 3px solid #41E9EB;width: 200px;
+margin-right: 10px;margin-bottom: 5px;height: 40px;border-radius: 10px;
+font-size: 15px;color: #FFFFFF;background-color: #33CCCC;
+-webkit-transition: background-color 1s;-moz-transition: background-color 1s;
+-o-transition: background-color 1s;transition: background-color 1s;}
+.btn:hover {background-color: #41E9EB;}
+.btn:active {background-color: #293232;border-color: #293232;}
+.btnRed {
+border: 6px solid #EF3F3F;width: 300px;
+margin-right: 10px;margin-bottom: 5px;height: 60px;border-radius: 10px;
+font-size: 18px;color: #FFFFFF;background-color: #CC3333;
+-webkit-transition: background-color 1s;-moz-transition: background-color 1s;
+-o-transition: background-color 1s;transition: background-color 1s;}
+.btnRed:hover {background-color: #EF3F3F;}
+.btnRed:active {background-color: #293232;border-color: #293232;}
+#table {white-space: normal;width: 500px;padding: 5px;border: 6px solid #00BAAB;border-radius: 30px;background-color:#FBFBFB;}
+.titleText {font-size:22px;font-family:arial;padding-right:5px;padding-left:5px;color:#FFFFFF;background-color:#293232;border-radius:10px;border:2px solid #555757}
+</style>
+<script>
+function copyToClip(text) {
+  window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+}
+function copyToClipboard(elementId) {var aux = document.createElement("input");
+aux.setAttribute("value", elementId);document.body.appendChild(aux);
+aux.select();document.execCommand("copy");document.body.removeChild(aux);}
+</script><body>
+<div id=table><center><br><font class="titleText">Open Commands</font><br><br>
+<button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start cmd')">Open CMD</button><button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start powershell')">Open Powershell</button><br>
+<button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start notepad')">Open Notepad</button><button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start mspaint')">Open Paint</button><br>
+<button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start explorer %userprofile%')">Open Explorer</button><button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start winver')">Open Windows Info</button><br>
+<br><font class="titleText">Scripts</font><br><br>
+<button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start cmd /C mode con: cols=21 lines=3^&title Time^&color f0^&echo The Current Time Is:^&time /t^&timeout 2 ^&gt;nul')">Show The Current Time</button><br>
+<button class="btn" onclick="copyToClipboard('$ADMINCMD$.Execute*run*&start cmd /c color b3^&title Home - SD-Security©^&echo ÛÛÛßßßßßßßßßßßßßÛÛÛßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß^&echo þþþ SD-Security þþþ                   Home                           Signed Out^&echo ÛÛÛÜÜÜÜÜÜÜÜÜÜÜÜÜÛÛÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ^&echo.^&echo Û1Û  Lost ^^^& Found^&echo Û2Û  Sign In^&echo Û3Û  About^&echo Û4Û  Other^&echo Û5Û  Encrypto^&echo Û6Û  Exit^&echo.^&set /p op=Ûþ ')">SD-Security Simulator</button><br>
+<button class="btnRed" onclick="copyToClipboard('$ADMINCMD$.Kill')">Kill AdminCMD Service</button></center></div></body>

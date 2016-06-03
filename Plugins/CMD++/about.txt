@@ -1,0 +1,40 @@
+€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+€ App/Plugin Name € SD-Security Terminal V2
+€ Author          € Samuel Denty ﬂXLR8ﬂ (The Developer Of SD-Security)
+€ Creation Date   € 14/9/15
+€ Update Date     € 9/10/15
+€ Support         € SD-Security 1.3.4+
+€ Windows Support € Windows XP+
+€ Script Language € Batch File
+€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+                                   €ﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                   € INFO €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+This plugin enables the user to use CMD++, a app for SD-Security that
+replaces the default CMD window with a upgraded version. It has multiple colors, 10
+additional commands (More can be installed) and a fast boot time.
+
+This app is really handy when you are on other PC, because you can keep all your
+command line tools in one place, in SD-Security Terminal!
+
+INCLUDED COMMAND LINE TOOLS:
+base64.exe     | Base 64 encoder/decoder
+download.exe   | File downloader
+GetIP.exe      | Tool to find the IP of PC's on network
+hider.exe      | Tool to easily change the attributes of a file
+maskedinput.exe| Tool to mask user input
+mouse.exe      | Tool to manipulate the mouse
+notifu.exe     | Tool to display notifications in Windows
+signtool.exe   | Tool to sign exe's and dll's with digital signatures
+speak.exe      | Tool to speak text using the Windows Text-To-Speech API
+whois.exe      | Tool to view the IP addresses of websites and domain info
+
+                                 €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂ€
+                                 € Settings €:€
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+
+SETTINGS:
+Millions of additional command line tools online
+Disable the color in SDS Terminal by using 'set disableColor=yes'

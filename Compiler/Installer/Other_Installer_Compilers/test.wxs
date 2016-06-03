@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?define ProductVersion = "1.2.9.0"?>
+<?define ProductUpgradeCode = "650D5E4D-C277-4861-90A5-EF1D32E08570"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+   <Product Id="*" UpgradeCode="$(var.ProductUpgradeCode)"
+            Name="SD-Security" Version="$(var.ProductVersion)" Manufacturer="SD-Storage" Language="1033">
+      <Package InstallerVersion="200" Compressed="yes" Comments="Windows Installer Package"/>
+      <Media Id="1" Cabinet="product.cab" EmbedCab="yes"/>
+      <Icon Id="ProductIcon" SourceFile="SD-Security.exe"/>
+      <Property Id="ARPPRODUCTICON" Value="ProductIcon"/>
+      <Property Id="ARPHELPLINK" Value="http://sd-storage.weebly.com/sd-security.html"/>
+      <Property Id="ARPURLINFOABOUT" Value="http://sd-storage.weebly.com/sd-security.html"/>
+      <Property Id="ARPNOREPAIR" Value="1"/>
+      <Property Id="ARPNOMODIFY" Value="1"/>
+      <Upgrade Id="$(var.ProductUpgradeCode)">
+         <UpgradeVersion Minimum="$(var.ProductVersion)" OnlyDetect="yes" Property="NEWERVERSIONDETECTED"/>
+         <UpgradeVersion Minimum="0.0.0" Maximum="$(var.ProductVersion)" IncludeMinimum="yes" IncludeMaximum="no"
+                         Property="OLDERVERSIONBEINGUPGRADED"/>
+      </Upgrade>
+      <Condition Message="You Already Have The Latest Version Of SD-Security Installed! If You Still Want To Downgrade, Then Uninstall SD-Security First">NOT NEWERVERSIONDETECTED</Condition>
+
+      <Directory Id="TARGETDIR" Name="SourceDir">
+         <Directory Id="ProgramFilesFolder">
+            <Directory Id="INSTALLDIR" Name="SD-Security">
+               <Component Id="ApplicationFiles" Guid="BB586007-1119-4220-A2A3-76BEABE5E043">
+                  <File Id="ApplicationFile1" Source="SD-Security.exe"/>
+               </Component>
+            </Directory>
+         </Directory>
+
+         <Directory Id="ProgramMenuFolder">
+            <Directory Id="ProgramMenuSubfolder" Name="SD-Security">
+               <Component Id="ApplicationShortcuts" Guid="AF3019A9-A6B2-421E-AF1D-493F16B167BA">
+                  <Shortcut Id="ApplicationShortcut1" Name="SD-Security" Description="Windows CMD Security Software By Samuel Denty"
+                            Target="[INSTALLDIR]SD-Security.exe" WorkingDirectory="INSTALLDIR"/>
+                  <RegistryValue Root="HKCU" Key="Software\SD-Storage\SD-Security"
+                            Name="Installed" Type="integer" Value="1" KeyPath="yes"/>
+                  <RemoveFolder Id="ProgramMenuSubfolder" On="uninstall"/>
+               </Component>
+            </Directory>
+         </Directory>
+      </Directory>
+
+      <InstallExecuteSequence>
+         <RemoveExistingProducts After="InstallValidate"/>
+      </InstallExecuteSequence>
+
+      <Feature Id="DefaultFeature" Level="1">
+         <ComponentRef Id="ApplicationFiles"/>
+         <ComponentRef Id="ApplicationShortcuts"/>
+      </Feature>
+   </Product>
+</Wix>

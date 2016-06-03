@@ -1,0 +1,7 @@
+SignTool=D:\Unlocked\Dropbox\Command Prompt Tools\signtool.exe
+PFX=D:\Unlocked\Batch Files\Project Security\BETA\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=AppBundle for SDS (SD-SecurInstaller)
+ProgramURL=http://SD-Storage.weebly.com/#SdSecurInstaller
+File1=D:\Unlocked\Batch Files\Project Security\BETA\Portable Compiler\Installer\AppBundle.exe

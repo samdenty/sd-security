@@ -1,0 +1,48 @@
+[OPTIONS]
+Language=0x1809
+Default Font=Arial,8,0
+TITLE=SD-Security
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=No
+Default Window=Main
+Compiled file=SD-Security.chm
+Error Log file=SD-Security.log
+Contents file=SD-Security.hhc
+Index File=SD-Security.hhk
+Default Topic=welcome.html
+[FILES]
+welcome.html
+gettingstarted.html
+demo1.html
+features.html
+apis.html
+reportingbugs2.html
+other.html
+exploits.html
+cmdproperties.html
+about.html
+termsandconditions.html
+logo.png
+nexttopic.png
+prevtopic.png
+Thumbs.db
+[WINDOWS]
+Main=,"SD-Security.hhc","SD-Security.hhk","welcome.html","welcome.html",,,,,0x061520,200,0x00304E,[50,50,850,450],0x307e,,,,,,,,0
+[ALIAS]
+welcome=welcome.html
+gettingstarted=gettingstarted.html
+demo1=demo1.html
+features=features.html
+apis=apis.html
+reportingbugs2=reportingbugs2.html
+other=other.html
+exploits=exploits.html
+cmdproperties=cmdproperties.html
+about=about.html
+termsandconditions=termsandconditions.html
+IDH_exploits_Input Securer API=exploits.html#Input Securer API
+[MAP]
+#include SD-Security.h

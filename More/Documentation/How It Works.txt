@@ -1,0 +1,20 @@
+This Is A Security Method Featured In NOT 1 OTHER windows security application, coded by XLR8
+
+DATA VAULT
+Basically:
+a. It Applied The Attributes Hidden And System File To A Folder
+b. It Renames The Folder To A Recycling Bin Shortcut
+c. It Applies The Permissions "Disable Read Write To Everyone" To The Folder
+
+Benifits:
+a= So You Can't View The Files Normally, And Gives A Scray Warning To Show System Files
+b= So You Can't Open It Even If You Show The Hidden Files And Sytem Files, Cause It Just Go To The Recycling Bin
+c= Stops Everyone From Looking In The Folder, Deleting It And Having To Be Logged In As A Administrator To Change Permissions
+
+Combinations:
+b+c= Stops Anyone From Going Into The Folder By Redirecting Them To The Recyling Bin, And Stops About 50%-70% Of Computer Users From Changing The Permissions, Because 50%-70% Of Uers Have Standard Accounts
+a+c= Hides The Folder And Gives A Error Message When You Try And Open The Folder
+
+
+ENCRYPTO
+Same Security Method As Above

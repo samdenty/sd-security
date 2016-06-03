@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link type="text/css" href="jqueryui.css" rel="stylesheet" />	
+		<link rel="stylesheet" href="jquery.treeview.css" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jqueryui.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="search.js"></script>
+
+		<script type="text/javascript">
+			$(function() {
+				$("#tabs").tabs();
+			});
+		</script>
+
+		<script src="jquery.treeview.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+		
+				$("#contents").treeview({
+					persist: "location",
+					collapsed: true,
+					unique: true
+				});
+
+				$("#index").treeview({
+					persist: "location",
+					collapsed: true,
+					unique: true
+				});
+
+		        });
+
+		function SelectTocItem(sLinkHref)
+		{
+			$(".file a").each(function()
+			{
+				if ($.inArray(sLinkHref + '.htm', this.href) > -1) $(this).css('font-weight', 'bold')
+				else $(this).css('font-weight', '');
+			});
+		}
+
+		</script>
+		<style type="text/css">
+			/*demo page css*/
+			body{ font-size: 70%;}
+		</style>	
+
+</head>
+<body>
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Contents</a></li>
+		<li><a href="#tabs-2">Index</a></li>
+		<li><a href="#tabs-3">Search</a></li>
+	</ul>
+	<div id="tabs-1">
+<ul id="contents" class="filetree">
+<li><span class="folder"><a href="gettingstarted.html" target="RightFrame">Developing Apps & Plugins</a></span>
+<ul>
+<li><span class="file"><a href="demo1.html" target="RightFrame">Demo Script</a></span>
+</li>
+
+</ul>
+</li>
+<li><span class="folder"><a href="features.html" target="RightFrame">Other</a></span>
+<ul>
+<li><span class="file"><a href="other.html" target="RightFrame">Error Codes</a></span>
+</li>
+<li><span class="file"><a href="apis.html" target="RightFrame">API'S</a></span>
+</li>
+
+</ul>
+</li>
+<li><span class="folder"><a href="about.html" target="RightFrame">About</a></span>
+<ul>
+<li><span class="file"><a href="reportingbugs.html" target="RightFrame">Reporting Bugs</a></span>
+</li>
+<li><span class="file"><a href="contactus.html" target="RightFrame">Contact Us</a></span>
+</li>
+
+</ul>
+</li>
+
+</li>
+</ul>
+
+	</div>
+	<div id="tabs-2">
+<ul id="index">
+</ul>
+
+	</div>
+	<div id="tabs-3">
+		<form onsubmit="requery();return false">
+			<input id="squery" type="text" name="q" autocomplete="off"/>
+			<input type="button" value=">" onclick="requery()">
+		</form>
+
+		<p>
+		<div id="results">
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1178 @@
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table, span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts2 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts3 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts4 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts5 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts6 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts7 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts8 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts9 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts10 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts11 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts12 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts13 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts14 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts15 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts16 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts17 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts18 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts19 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts20 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts21 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts22 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts23 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts24 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts25 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts26 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts27 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts28 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts29 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts30 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts31 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts32 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts33 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts34 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts35 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts36 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts37 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts38 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts39 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts40 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts41 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts42 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts43 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts44 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts45 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts46 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts47 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts48 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts49 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts50 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts51 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts52 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts53 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts54 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts55 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts56 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts57 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts58 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts59 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts60 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts61 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts62 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts63 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts64 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts65 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts66 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts67 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts68 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts69 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts70 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts71 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts72 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts73 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts74 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts75 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts76 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts77 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts78 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts79 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts80 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts81 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts82 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts83 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts84 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts85 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts86 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts87 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts88 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts89 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts90 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts91 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts92 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts93 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts94 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts95 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts96 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts97 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts98 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts99 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts100 /* STUB */
+{
+ font-size: 0pt;
+}
+span.rvts101 /* Font Style */
+{
+ font-size: 11pt;
+ color: #000000;
+}
+span.rvts102 /* Font Style */
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #ffffff;
+ background-color: #ff0000;
+}
+span.rvts103 /* Font Style */
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts104 /* Font Style */
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #ff0000;
+}
+span.rvts105 /* Font Style */
+{
+ font-size: 11pt;
+ color: #ff0000;
+}
+span.rvts106 /* Font Style */
+{
+ font-size: 11pt;
+ color: #004dbb;
+}
+span.rvts107 /* Font Style */
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #333333;
+}
+span.rvts108 /* Font Style */
+{
+ font-size: 11pt;
+ color: #333333;
+}
+span.rvts109 /* Font Style */
+{
+ font-size: 11pt;
+}
+span.rvts110 /* Font Style */
+{
+ font-size: 11pt;
+ font-weight: bold;
+}
+span.rvts111 /* Font Style */
+{
+ font-size: 11pt;
+ background-color: #00ff00;
+}
+span.rvts112 /* Font Style */
+{
+ font-size: 13pt;
+ color: #000000;
+}
+span.rvts113 /* Font Style */
+{
+ font-size: 13pt;
+ color: #ff0000;
+}
+span.rvts114 /* Font Style */
+{
+ font-size: 13pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts115 /* Font Style */
+{
+ font-size: 13pt;
+ font-weight: bold;
+ color: #ff0000;
+}
+span.rvts116 /* Font Style */
+{
+ font-size: 13pt;
+ font-weight: bold;
+ color: #ffffff;
+ background-color: #ff9900;
+}
+span.rvts117 /* Font Style */
+{
+ font-size: 11pt;
+ color: #004dbb;
+ background-color: #ccffff;
+}
+span.rvts118 /* Font Style */
+{
+ font-size: 11pt;
+ color: #ffffff;
+ background-color: #000000;
+}
+span.rvts119 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Roboto Mono';
+ color: #154645;
+}
+span.rvts120 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Roboto Mono';
+ font-weight: bold;
+ color: #233a37;
+}
+span.rvts121 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Roboto Mono';
+ color: #1b1b1b;
+}
+span.rvts122 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Roboto Mono';
+ color: #fe6d54;
+}
+span.rvts123 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Ubuntu';
+ color: #154645;
+}
+span.rvts124 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Ubuntu';
+ color: #1b1b1b;
+}
+span.rvts125 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Ubuntu Light';
+ font-weight: bold;
+ color: #154645;
+}
+span.rvts126 /* Font Style */
+{
+ font-size: 11pt;
+ color: #154645;
+}
+span.rvts127 /* Font Style */
+{
+ font-size: 11pt;
+ font-weight: bold;
+ color: #154645;
+}
+span.rvts128 /* Font Style */
+{
+ font-size: 11pt;
+ color: #c0c0c0;
+}
+span.rvts129 /* Font Style */
+{
+ font-size: 11pt;
+ color: #000000;
+}
+span.rvts130 /* Normal text */
+{
+ font-weight: bold;
+}
+span.rvts131 /* Font Style */
+{
+ color: #000000;
+}
+span.rvts132 /* Font Style */
+{
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts133 /* Normal text */
+{
+ font-size: 100pt;
+ font-style: italic;
+ color: #ffffff;
+ background-color: #d13f3f;
+}
+span.rvts134 /* Normal text */
+{
+ color: #969696;
+}
+span.rvts135 /* Normal text */
+{
+ font-weight: bold;
+ color: #969696;
+}
+span.rvts136 /* Normal text */
+{
+ font-weight: bold;
+ color: #808080;
+}
+span.rvts137
+{
+ color: #ff6600;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* left align */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* stub */
+{
+}
+.rvps2 /* stub */
+{
+}
+.rvps3 /* stub */
+{
+}
+.rvps4 /* stub */
+{
+}
+.rvps5 /* stub */
+{
+}
+.rvps6 /* stub */
+{
+}
+.rvps7 /* stub */
+{
+}
+.rvps8 /* stub */
+{
+}
+.rvps9 /* stub */
+{
+}
+.rvps10 /* stub */
+{
+}
+.rvps11 /* stub */
+{
+}
+.rvps12 /* stub */
+{
+}
+.rvps13 /* stub */
+{
+}
+.rvps14 /* stub */
+{
+}
+.rvps15 /* stub */
+{
+}
+.rvps16 /* stub */
+{
+}
+.rvps17 /* stub */
+{
+}
+.rvps18 /* stub */
+{
+}
+.rvps19 /* stub */
+{
+}
+.rvps20 /* stub */
+{
+}
+.rvps21 /* stub */
+{
+}
+.rvps22 /* stub */
+{
+}
+.rvps23 /* stub */
+{
+}
+.rvps24 /* stub */
+{
+}
+.rvps25 /* stub */
+{
+}
+.rvps26 /* stub */
+{
+}
+.rvps27 /* stub */
+{
+}
+.rvps28 /* stub */
+{
+}
+.rvps29 /* stub */
+{
+}
+.rvps30 /* stub */
+{
+}
+.rvps31 /* stub */
+{
+}
+.rvps32 /* stub */
+{
+}
+.rvps33 /* stub */
+{
+}
+.rvps34 /* stub */
+{
+}
+.rvps35 /* stub */
+{
+}
+.rvps36 /* stub */
+{
+}
+.rvps37 /* stub */
+{
+}
+.rvps38 /* stub */
+{
+}
+.rvps39 /* stub */
+{
+}
+.rvps40 /* stub */
+{
+}
+.rvps41 /* stub */
+{
+}
+.rvps42 /* stub */
+{
+}
+.rvps43 /* stub */
+{
+}
+.rvps44 /* stub */
+{
+}
+.rvps45 /* stub */
+{
+}
+.rvps46 /* stub */
+{
+}
+.rvps47 /* stub */
+{
+}
+.rvps48 /* stub */
+{
+}
+.rvps49 /* stub */
+{
+}
+.rvps50 /* stub */
+{
+}
+.rvps51 /* stub */
+{
+}
+.rvps52 /* stub */
+{
+}
+.rvps53 /* stub */
+{
+}
+.rvps54 /* stub */
+{
+}
+.rvps55 /* stub */
+{
+}
+.rvps56 /* stub */
+{
+}
+.rvps57 /* stub */
+{
+}
+.rvps58 /* stub */
+{
+}
+.rvps59 /* stub */
+{
+}
+.rvps60 /* stub */
+{
+}
+.rvps61 /* stub */
+{
+}
+.rvps62 /* stub */
+{
+}
+.rvps63 /* stub */
+{
+}
+.rvps64 /* stub */
+{
+}
+.rvps65 /* stub */
+{
+}
+.rvps66 /* stub */
+{
+}
+.rvps67 /* stub */
+{
+}
+.rvps68 /* stub */
+{
+}
+.rvps69 /* stub */
+{
+}
+.rvps70 /* stub */
+{
+}
+.rvps71 /* stub */
+{
+}
+.rvps72 /* stub */
+{
+}
+.rvps73 /* stub */
+{
+}
+.rvps74 /* stub */
+{
+}
+.rvps75 /* stub */
+{
+}
+.rvps76 /* stub */
+{
+}
+.rvps77 /* stub */
+{
+}
+.rvps78 /* stub */
+{
+}
+.rvps79 /* stub */
+{
+}
+.rvps80 /* stub */
+{
+}
+.rvps81 /* stub */
+{
+}
+.rvps82 /* stub */
+{
+}
+.rvps83 /* stub */
+{
+}
+.rvps84 /* stub */
+{
+}
+.rvps85 /* stub */
+{
+}
+.rvps86 /* stub */
+{
+}
+.rvps87 /* stub */
+{
+}
+.rvps88 /* stub */
+{
+}
+.rvps89 /* stub */
+{
+}
+.rvps90 /* stub */
+{
+}
+.rvps91 /* stub */
+{
+}
+.rvps92 /* stub */
+{
+}
+.rvps93 /* stub */
+{
+}
+.rvps94 /* stub */
+{
+}
+.rvps95 /* stub */
+{
+}
+.rvps96 /* stub */
+{
+}
+.rvps97 /* stub */
+{
+}
+.rvps98 /* stub */
+{
+}
+.rvps99 /* stub */
+{
+}
+.rvps100 /* stub */
+{
+}
+.rvps101 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps102 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps103 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps104 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps105 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps106 /* Paragraph Style */
+{
+ text-indent: -39px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps107 /* Paragraph Style */
+{
+ text-indent: -39px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps108 /* Paragraph Style */
+{
+ text-indent: -39px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps109 /* Paragraph Style */
+{
+ text-indent: -39px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps110 /* Paragraph Style */
+{
+ text-indent: -39px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps111 /* Paragraph Style */
+{
+ text-indent: -39px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps112 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps113 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps114 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps115 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps116 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 13px 48px;
+}
+.rvps117 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps118 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps119 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps120 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps121 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps122 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps123 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps124 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps125 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps126 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps127 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps128 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps129 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps130 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps131 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps132 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps133 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps134 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps135 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps136 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps137 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps138 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps139 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps140 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps141 /* Paragraph Style */
+{
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 13px 48px;
+}
+.rvps142 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps143 /* Paragraph Style */
+{
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps144 /* Paragraph Style */
+{
+ text-align: center;
+ line-height: 1.15;
+ margin: 0px 0px 13px 0px;
+}
+.rvps145 /* left align */
+{
+}
+.rvps146 /* left align */
+{
+ text-align: center;
+}
+.rvps147 /* left align */
+{
+ text-align: center;
+}
+.rvps148 /* left align */
+{
+}

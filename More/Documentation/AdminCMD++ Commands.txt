@@ -1,0 +1,11 @@
+Commands:
+On Start = $ADMINCMD$.Status.Active
+$ADMINCMD$.Execute.%password%& = $ADMINCMD$.Kill.Success
+$ADMINCMD$.Execute.%password%&start "" "D:\install_bootanimationfactory.msi"
+$ADMINCMD$.Kill = $ADMINCMD$.Kill.Success
+
+EXAMPLES:
+$ADMINCMD$.Kill
+$ADMINCMD$.Execute*run*&start cmd
+$ADMINCMD$.Execute*run*&start cmd /C "color f0&echo SERVICE RUNNING!&timeout 2 >nul"
+$ADMINCMD$.Execute*run*&start cmd /C "mode con: cols=21 lines=3&title Time&color f0&echo The Time Is:&time /t&timeout 2 >nul"

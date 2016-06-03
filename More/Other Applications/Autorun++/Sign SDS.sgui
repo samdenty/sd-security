@@ -1,0 +1,7 @@
+SignTool=D:\Unlocked\Dropbox\Command Prompt Tools\signtool.exe
+PFX=D:\Project Security\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=Autorun++
+ProgramURL=http://SD-Storage.weebly.com/#Autorun++
+File1=D:\Project Security\More\Other Applications\Autorun++\Autorun++.exe

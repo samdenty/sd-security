@@ -1,0 +1,3 @@
+To Disable Auto-Restore, Create A File Named 'DisableAutoRestore.txt' (Or With Any Other Extension). Auto-Restore Is Default Enabled, Because It Speeds Up The Booting Time. It Is Recommended That You Keep It Enabled, But You Don't Have To
+
+To Enable Auto-Save Permanently, Create A File Named 'DefaultEnable.txt' (Or With Any Other Extension). This Feature COULD Cause SD-Security To Crash, Due To The Fact It Never Refreshes The Info. SD-Security Won't Alert You About Any Error While This Feature Is On Enabled. SD-Security Will Only Automatically Restore Though, If You Exit By Selecting 'Exit' On The Home Screen

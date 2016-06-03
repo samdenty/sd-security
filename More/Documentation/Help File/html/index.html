@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SD-Security</title>
+</head>
+<script type="text/javascript">
+var UrlTopic = "";
+if (top.location.href.lastIndexOf("?") > 0)
+UrlTopic = top.location.href.substring(top.location.href.lastIndexOf("?") + 1, top.location.href.length);
+if (UrlTopic.indexOf("..") >= 0) UrlTopic = "";
+if (UrlTopic == "") UrlTopic = "gettingstarted.html";
+document.write('<frameset cols="300,*">');
+document.write('<frame src="contents.html" name="LeftFrame">');
+document.write('<frame src="./' + encodeURIComponent(UrlTopic) + '" name="RightFrame">');
+document.write('</frameset>');
+</script>
+<noscript>
+<frameset rows="*" cols="400,*">
+<frame src="contents.html" name="LeftFrame">
+<frame src="gettingstarted.html" name="RightFrame">
+</frameset>
+</noscript>
+</html>

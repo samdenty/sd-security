@@ -1,0 +1,7 @@
+SignTool=D:\Unlocked\Command Prompt Tools\signtool.exe
+PFX=D:\Unlocked\Batch Files\Project Security\BETA\Digital Signature\SD-Storage.pfx
+Password=eebbcafb2550
+TimeStamp=
+ProgramTitle=SD-Storage APP
+ProgramURL=http://SD-Storage.weebly.com/#AppEXE
+File1=D:\Unlocked\Batch Files\Project Security\BETA\Extra's\SD-Storage App\SD-Storage.exe

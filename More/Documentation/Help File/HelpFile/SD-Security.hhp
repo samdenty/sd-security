@@ -1,0 +1,29 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=SD-Security.chm
+Contents file=SD-Security.hhc
+Default topic=welcome.html
+Display compile progress=No
+Enhanced decompilation=Yes
+Error log file=Log.txt
+Index file=SD-Security.hhk
+Language=0x809 English (United Kingdom)
+Title=SD-Security
+
+
+[FILES]
+about.html
+apis.html
+cmdproperties.html
+demo1.html
+exploits.html
+features.html
+gettingstarted.html
+glossary.html
+other.html
+reportingbugs2.html
+termsandconditions.html
+welcome.html
+
+[INFOTYPES]
+

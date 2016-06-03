@@ -1,0 +1,2 @@
+@echo off
+if exist "C:\Program Files (x86)\LogMeIn Hamachi\hamachi*.exe" (set Hamachi=Installed) else (if exist "C:\Program Files\LogMeIn Hamachi\hamachi*.exe" (set Hamachi=Installed) else (set Hamachi=Uninstalled))
